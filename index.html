@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador de Mesas — Testeo Charly</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <header>
+        <p class="tag">Testeo · Matrimonios 2026</p>
+        <h1>Busca tu mesa</h1>
+        <p class="intro">
+          Ingresa tu nombre y apellido tal como aparece en la lista. El sistema
+          devolverá tu mesa y podrás mostrarlo en la entrada.
+        </p>
+      </header>
+
+      <form id="search-form" autocomplete="off">
+        <label for="query">Nombre y apellido</label>
+        <div class="input-row">
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Ana María Rojas"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar mesa</button>
+        </div>
+        <small class="hint">
+          * Búsqueda sin acentos y sin importar mayúsculas/minúsculas.
+        </small>
+      </form>
+
+      <section id="results" aria-live="polite"></section>
+
+      <section class="tips">
+        <h2>¿Cómo se usa?</h2>
+        <ol>
+          <li>Escanea el QR del evento y abre esta página.</li>
+          <li>Escribe tu nombre y presiona “Buscar mesa”.</li>
+          <li>Muestra el resultado al anfitrión y dirígete a tu mesa.</li>
+        </ol>
+        <p class="note">
+          Para pruebas internas abre <code>index.html</code> en un navegador o
+          sirve la carpeta con <code>npx serve</code> / <code>python -m http.server</code>.
+        </p>
+        <figure>
+          <img src="assets/qr-testeo-charly.png" alt="QR de prueba" />
+          <figcaption>QR que apunta a http://localhost:4173/testeo-charly</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
