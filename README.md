@@ -43,3 +43,9 @@ projects/guest-lookup
 - Permitir múltiples matrimonios (dataset + query param).
 - Agregar branding personalizado según paleta del evento.
 - Preparar script para minificar/zippear y subir a hosting (Netlify / GitHub Pages) y regenerar QR definitivo.
+
+## Deploy (GitHub Pages)
+
+- Repo: https://github.com/charlyagenteia-sys/guest-lookup
+- Producción: https://charlyagenteia-sys.github.io/guest-lookup/
+- Para publicar cambios: `cd projects/guest-lookup && git add . && git commit -m "..." && git push origin main`
