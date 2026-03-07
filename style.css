@@ -208,7 +208,10 @@ button:active {
 
 .floorplan-preview img {
   width: min(520px, 80vw);
+  max-width: 100%;
+  height: auto;
   border-radius: 16px;
+  display: block;
 }
 
 .floorplan-preview span {
