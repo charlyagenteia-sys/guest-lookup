@@ -14,7 +14,7 @@ const normalize = (value = '') =>
 let guests = [];
 
 async function loadGuests() {
-  const response = await fetch('data/guests-sample.json');
+  const response = await fetch('data/guests-walker-mackenna.json');
   const data = await response.json();
   guests = data
     .map((guest) => ({
