@@ -44,6 +44,14 @@
           <li>Escribe tu nombre y presiona “Buscar mesa”.</li>
           <li>Muestra el resultado al anfitrión y dirígete a tu mesa.</li>
         </ol>
+        <div class="floorplan">
+          <h2>Plano del salón</h2>
+          <p>Abre el plano para identificar rápidamente la ubicación de cada mesa.</p>
+          <button type="button" class="floorplan-preview" id="open-floorplan">
+            <img src="assets/plano-walker-mackenna.png" alt="Plano general del salón" />
+            <span>Tocar para ver en pantalla completa</span>
+          </button>
+        </div>
         <p class="note">
           Versión publicada: <a href="https://charlyagenteia-sys.github.io/guest-lookup/" target="_blank" rel="noopener">https://charlyagenteia-sys.github.io/guest-lookup/</a>.
           Para pruebas offline abre <code>index.html</code> o levanta un server con <code>npx serve</code> / <code>python -m http.server</code>.
@@ -54,6 +62,11 @@
         </figure>
       </section>
     </main>
+
+    <dialog id="floorplan-dialog">
+      <button type="button" class="close-floorplan" aria-label="Cerrar plano">&times;</button>
+      <img src="assets/plano-walker-mackenna.png" alt="Plano completo del salón" />
+    </dialog>
 
     <script type="module" src="app.js"></script>
   </body>
