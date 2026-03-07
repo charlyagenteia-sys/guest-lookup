@@ -88,22 +88,6 @@ input.addEventListener('input', () => {
 loadGuests();
 
 
-const floorDialog = document.getElementById('floorplan-dialog');
-const openFloorBtn = document.getElementById('open-floorplan');
-const closeFloorBtn = document.querySelector('.close-floorplan');
-
-if (floorDialog && openFloorBtn) {
-  openFloorBtn.addEventListener('click', () => {
-    floorDialog.showModal();
-  });
-  closeFloorBtn?.addEventListener('click', () => floorDialog.close());
-  floorDialog.addEventListener('click', (event) => {
-    if (event.target === floorDialog) {
-      floorDialog.close();
-    }
-  });
-}
-
 
 const floorDialog = document.getElementById('floorplan-dialog');
 const openFloorBtn = document.getElementById('open-floorplan');
