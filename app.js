@@ -86,33 +86,3 @@ input.addEventListener('input', () => {
 });
 
 loadGuests();
-
-
-
-const floorDialog = document.getElementById('floorplan-dialog');
-const openFloorBtn = document.getElementById('open-floorplan');
-const closeFloorBtn = document.querySelector('.close-floorplan');
-const floorplanImage = openFloorBtn?.getAttribute('href') ?? 'assets/plano-walker-mackenna.png';
-
-if (floorDialog && openFloorBtn && closeFloorBtn) {
-  const canShowModal = typeof floorDialog.showModal === 'function';
-  openFloorBtn.addEventListener('click', (event) => {
-    if (canShowModal) {
-      event.preventDefault();
-      floorDialog.showModal();
-    }
-  });
-
-  if (canShowModal) {
-    closeFloorBtn.addEventListener('click', () => {
-      floorDialog.close();
-    });
-    floorDialog.addEventListener('click', (event) => {
-      if (event.target === floorDialog) {
-        floorDialog.close();
-      }
-    });
-  } else {
-    floorDialog.remove();
-  }
-}
