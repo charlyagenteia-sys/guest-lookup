@@ -1,6 +1,7 @@
 const resultsBox = document.getElementById('results');
 const form = document.getElementById('search-form');
 const input = document.getElementById('query');
+const datasetPath = document.body.dataset.dataset || 'data/guests-walker-mackenna.json';
 
 const normalize = (value = '') =>
   value
@@ -14,7 +15,7 @@ const normalize = (value = '') =>
 let guests = [];
 
 async function loadGuests() {
-  const response = await fetch('data/guests-walker-mackenna.json');
+  const response = await fetch(datasetPath);
   const data = await response.json();
   guests = data
     .map((guest) => ({
