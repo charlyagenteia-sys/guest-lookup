@@ -7,6 +7,8 @@
   --accent-dark: #7045c8;
   --border: #dcdcdc;
   --muted: #6b6b6b;
+  --floorplan-border: #d9c7ff;
+  --floorplan-glow: rgba(154, 111, 255, 0.12);
 }
 
 * {
@@ -115,6 +117,7 @@ button:active {
 }
 
 .result-card {
+  --mesa-color: rgba(154, 111, 255, 0.18);
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -130,9 +133,12 @@ button:active {
 
 .result-card .mesa {
   margin-left: auto;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: var(--accent-dark);
+  background: var(--mesa-color);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
 }
 
 #results .empty {
@@ -223,3 +229,63 @@ button:active {
 
 
 
+
+
+.result-card.is-active {
+  background: #fff;
+  border: 2px solid var(--mesa-color);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+}
+
+.result-card.is-active .mesa {
+  color: #fff;
+  background: var(--mesa-color);
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 10px 30px rgba(112, 69, 200, 0.25);
+}
+
+.floorplan-frame {
+  position: relative;
+  margin: 1rem auto 0;
+  max-width: 520px;
+  border-radius: 24px;
+  border: 1px solid var(--floorplan-border);
+  padding: 0.75rem;
+  box-shadow: 0 20px 45px var(--floorplan-glow);
+  background: #fff;
+}
+
+.floorplan-frame img {
+  width: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
+.floorplan-highlight {
+  position: absolute;
+  inset: 1.5rem auto auto 1.5rem;
+  background: var(--mesa-color, var(--accent-dark));
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 12px 30px rgba(112, 69, 200, 0.25);
+}
+
+.floorplan-highlight[hidden] {
+  display: none;
+}
+
+.floorplan-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+}
+
+body[data-active-table] #results {
+  border-color: var(--accent);
+}
