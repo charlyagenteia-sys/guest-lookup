@@ -14,6 +14,17 @@ const normalize = (value = '') =>
     .toLowerCase();
 
 let guests = [];
+let tableMap = {};
+
+
+async function loadTableMap() {
+  try {
+    const response = await fetch('data/table-map.json');
+    tableMap = await response.json();
+  } catch (error) {
+    tableMap = {};
+  }
+}
 
 async function loadGuests() {
   const response = await fetch(datasetPath);
@@ -91,12 +102,15 @@ function colorForTable(table = '') {
 
 function highlightTable(table, color) {
   if (!floorplanHighlight) return;
-  if (!table) {
+  const coords = tableMap[String(table)];
+  if (!table || !coords) {
     floorplanHighlight.hidden = true;
     document.body.removeAttribute('data-active-table');
     return;
   }
   floorplanHighlight.hidden = false;
+  floorplanHighlight.style.left = `${coords.x}%`;
+  floorplanHighlight.style.top = `${coords.y}%`;
   floorplanHighlight.textContent = `Mesa ${table}`;
   if (color) {
     floorplanHighlight.style.setProperty('--mesa-color', color);
@@ -130,4 +144,5 @@ input.addEventListener('input', () => {
   }
 });
 
+loadTableMap();
 loadGuests();
