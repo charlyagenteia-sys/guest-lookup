@@ -98,7 +98,7 @@ function searchGuest(queryRaw) {
 function colorForTable(table = '') {
   const seed = Array.from(String(table)).reduce((acc, char) => acc + char.charCodeAt(0), 0);
   const hue = (seed * 47) % 360;
-  return `hsl(${hue}, 70%, 85%)`;
+  return `hsl(${hue}, 65%, 35%)`;
 }
 
 function highlightTable(table, color) {
