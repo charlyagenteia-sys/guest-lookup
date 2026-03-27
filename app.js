@@ -1,3 +1,4 @@
+const isCalibrateMode = new URLSearchParams(window.location.search).has('calibrate');
 const resultsBox = document.getElementById('results');
 const form = document.getElementById('search-form');
 const input = document.getElementById('query');
@@ -150,3 +151,38 @@ input.addEventListener('input', () => {
 
 loadTableMap();
 loadGuests();
+setupCalibrateMode();
+
+
+function setupCalibrateMode() {
+  if (!isCalibrateMode) return;
+  const frame = document.querySelector('.floorplan-frame');
+  const img = frame?.querySelector('img');
+  if (!frame || !img) return;
+
+  const hint = document.createElement('div');
+  hint.className = 'calibrate-hint';
+  hint.textContent = 'Calibración activa: haz clic sobre la mesa para obtener coordenadas';
+  frame.appendChild(hint);
+
+  frame.addEventListener('click', (event) => {
+    const rect = img.getBoundingClientRect();
+    const xPercent = ((event.clientX - rect.left) / rect.width) * 100;
+    const yPercent = ((event.clientY - rect.top) / rect.height) * 100;
+    const tableId = prompt('Mesa (ej. 12):');
+    if (!tableId) return;
+    const defaultSize = tableMap[String(tableId)]?.size || 60;
+    const sizeInput = prompt('Diámetro (px, opcional):', String(defaultSize));
+    const size = parseFloat(sizeInput) || defaultSize;
+    const snippet = `"${tableId}": { "x": ${xPercent.toFixed(1)}, "y": ${yPercent.toFixed(1)}, "size": ${Math.round(size)} }`;
+    console.info('👉 Copia este bloque en data/table-map.json:', snippet);
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(snippet).then(() => {
+        hint.textContent = `Mesa ${tableId}: ${xPercent.toFixed(1)}%, ${yPercent.toFixed(1)}% (copiado)`;
+      });
+    } else {
+      hint.textContent = snippet;
+      alert(snippet);
+    }
+  });
+}
