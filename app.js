@@ -111,7 +111,11 @@ function highlightTable(table, color) {
   floorplanHighlight.hidden = false;
   floorplanHighlight.style.left = `${coords.x}%`;
   floorplanHighlight.style.top = `${coords.y}%`;
-  floorplanHighlight.textContent = `Mesa ${table}`;
+  const size = coords.size || 60;
+  floorplanHighlight.style.width = `${size}px`;
+  floorplanHighlight.style.height = `${size}px`;
+  floorplanHighlight.style.fontSize = `${Math.max(size * 0.35, 16)}px`;
+  floorplanHighlight.textContent = table;
   if (color) {
     floorplanHighlight.style.setProperty('--mesa-color', color);
   }
