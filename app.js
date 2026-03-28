@@ -162,7 +162,7 @@ function setupCalibrateMode() {
 
   const hint = document.createElement('div');
   hint.className = 'calibrate-hint';
-  hint.textContent = 'Calibración activa: haz clic sobre la mesa para obtener coordenadas';
+  hint.textContent = 'Calibración activa';
   frame.appendChild(hint);
 
   frame.addEventListener('click', (event) => {
