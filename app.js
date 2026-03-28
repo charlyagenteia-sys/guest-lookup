@@ -112,13 +112,22 @@ function highlightTable(table, color) {
   floorplanHighlight.hidden = false;
   floorplanHighlight.style.left = `${coords.x}%`;
   floorplanHighlight.style.top = `${coords.y}%`;
-  const size = coords.size || 60;
-  floorplanHighlight.style.width = `${size}px`;
-  floorplanHighlight.style.height = `${size}px`;
-  floorplanHighlight.style.fontSize = `${Math.max(size * 0.35, 16)}px`;
-  floorplanHighlight.textContent = table;
-  if (color) {
-    floorplanHighlight.style.setProperty('--mesa-color', color);
+  const ring = floorplanHighlight.querySelector('.floorplan-ring');
+  const tip = floorplanHighlight.querySelector('.floorplan-tip');
+  const number = floorplanHighlight.querySelector('.floorplan-number');
+  const size = coords.size || 46;
+  const markerColor = color || '#0f0f0f';
+  floorplanHighlight.style.setProperty('--marker-color', markerColor);
+  if (ring) {
+    ring.style.width = `${size}px`;
+    ring.style.height = `${size}px`;
+  }
+  if (number) {
+    number.style.fontSize = `${Math.max(size * 0.4, 18)}px`;
+    number.textContent = table === 'PRINCIPAL' ? '★' : table;
+  }
+  if (tip) {
+    tip.textContent = table === 'PRINCIPAL' ? 'Mesa principal' : `Mesa ${table}`;
   }
   document.body.dataset.activeTable = table;
 }

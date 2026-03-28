@@ -208,18 +208,84 @@ body {
 
 .floorplan-highlight {
   position: absolute;
-  top: 0;
-  left: 0;
-  background: var(--mesa-color, var(--gold));
-  color: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.floorplan-ring {
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
-  font-weight: 700;
+  background: var(--marker-color, #0f0f0f);
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
-  transform: translate(-50%, -50%);
+  position: relative;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  animation: markerPulse 2s infinite;
+}
+
+.floorplan-ring::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 1.5px solid var(--gold);
+  animation: markerWave 2s infinite;
+}
+
+.floorplan-number {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.floorplan-tip {
+  background: #0f0f0f;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.floorplan-tip::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: #0f0f0f;
+  border-bottom: none;
+}
+
+@keyframes markerPulse {
+  0%, 100% {
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  }
+  50% {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes markerWave {
+  0% {
+    inset: -4px;
+    opacity: 0.8;
+  }
+  100% {
+    inset: -18px;
+    opacity: 0;
+  }
 }
 
 .floorplan-highlight[hidden] {
