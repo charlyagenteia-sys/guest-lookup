@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busque su mesa · Alto Noviciado</title>
+    <link rel="stylesheet" href="style.css?v=20260417" />
+  </head>
+  <body data-dataset="data/guests-alto-noviciado-sample.json" data-table-map="data/table-map-50.json">
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero-card invite-card">
+        <p class="event-meta">ALTO NOVICIADO · SEATING MAP</p>
+        <span class="script-tag">MATRIMONIO KEEFFE - NICOLÁS</span>
+        <h1>Encuentra tu mesa</h1>
+        <p class="intro-text">
+          Busca tu nombre tal como aparece en la lista de invitados. Si tienes dudas, acércate al equipo de anfitriones.
+        </p>
+        <form id="search-form" autocomplete="off">
+          <label for="query">Nombre o apellido</label>
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Carolina Díaz"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar</button>
+        </form>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite">
+          <div class="empty">Escribe tu nombre para ver la mesa.</div>
+        </div>
+        <div class="floorplan-card">
+          <h2>Plano Alto Noviciado</h2>
+          <p>El marcador se actualizará con la mesa del último resultado.</p>
+          <div class="floorplan-frame">
+            <img src="assets/noviciado-50mesas.jpg" alt="Plano de mesas Alto Noviciado" />
+            <span id="floorplan-highlight" class="floorplan-highlight" hidden>
+              <span class="floorplan-tip">Mesa</span>
+              <span class="floorplan-ring"><span class="floorplan-number">—</span></span>
+            </span>
+          </div>
+          <a class="floorplan-link" href="assets/noviciado-50mesas.jpg" target="_blank" rel="noopener"
+            >Abrir en grande</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

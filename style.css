@@ -9,6 +9,65 @@
   --backdrop-blur: blur(10px);
 }
 
+
+body.theme-vik {
+  --cream: #fdf9f7;
+  --gold: #c8102e;
+  --charcoal: #221f1f;
+  --muted: #6d6a69;
+  background: radial-gradient(circle at top, rgba(247, 238, 235, 0.9), rgba(247, 238, 235, 0.4));
+}
+
+body.theme-vik .backdrop {
+  background: linear-gradient(135deg, rgba(200, 16, 46, 0.18), rgba(28, 24, 24, 0.55));
+  filter: blur(15px);
+  opacity: 0.75;
+}
+
+body.theme-vik::after {
+  background: rgba(253, 249, 247, 0.82);
+}
+
+body.theme-vik .hero-card,
+body.theme-vik .results-panel {
+  border: 1px solid rgba(200, 16, 46, 0.08);
+}
+
+body.theme-vik #search-form button {
+  background: #c8102e;
+}
+
+body.theme-vik #search-form button:hover {
+  background: #a30e25;
+}
+
+body.theme-vik .result-card .mesa {
+  background: #c8102e;
+}
+
+body.theme-vik .logo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.75rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid rgba(200, 16, 46, 0.25);
+  background: rgba(255, 255, 255, 0.95);
+  width: fit-content;
+  margin: 0 auto 1rem;
+}
+
+body.theme-vik .logo-badge img {
+  width: 48px;
+  height: 48px;
+}
+
+body.theme-vik .logo-badge span {
+  letter-spacing: 0.3em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #5c5a59;
+}
 * {
   box-sizing: border-box;
 }

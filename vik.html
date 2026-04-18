@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busque su mesa · Viña VIK</title>
+    <link rel="stylesheet" href="style.css?v=20260416" />
+  </head>
+  <body class="theme-vik" data-dataset="data/guests-vik-sample.json">
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero-card invite-card">
+        <div class="logo-badge">
+          <img src="assets/logo-vik.png" alt="VIK" />
+          <span>Seating lookup</span>
+        </div>
+        <p class="event-meta">VIÑA VIK · MILLahue · 25 abril 2026</p>
+        <h1>Encuentra tu mesa</h1>
+        <p class="intro-text">
+          Ingresa tu nombre tal como aparece en la acreditación y te mostraremos tu mesa.
+        </p>
+        <form id="search-form" autocomplete="off">
+          <label for="query">Nombre o apellido</label>
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Andrea Torres"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar</button>
+        </form>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite">
+          <div class="empty">
+            Escribe tu nombre para ver el número de mesa.
+          </div>
+        </div>
+        <div class="floorplan-card">
+          <h2>Plano Viña VIK</h2>
+          <p>La marca señala la mesa del último resultado.</p>
+          <div class="floorplan-frame">
+            <img src="assets/floorplan-vik-placeholder.png" alt="Plano Viña VIK" />
+            <span id="floorplan-highlight" class="floorplan-highlight" hidden>
+              <span class="floorplan-tip">Mesa</span>
+              <span class="floorplan-ring"><span class="floorplan-number">—</span></span>
+            </span>
+          </div>
+          <a
+            class="floorplan-link"
+            href="assets/floorplan-vik-placeholder.png"
+            target="_blank"
+            rel="noopener"
+            >Abrir en pantalla completa</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

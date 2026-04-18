@@ -3,6 +3,7 @@ const resultsBox = document.getElementById('results');
 const form = document.getElementById('search-form');
 const input = document.getElementById('query');
 const datasetPath = document.body.dataset.dataset || 'data/guests-28mar.json';
+const tableMapPath = document.body.dataset.tableMap || 'data/table-map.json';
 const floorplanHighlight = document.getElementById('floorplan-highlight');
 
 const normalize = (value = '') =>
@@ -20,7 +21,7 @@ let tableMap = {};
 
 async function loadTableMap() {
   try {
-    const response = await fetch('data/table-map.json');
+    const response = await fetch(tableMapPath);
     tableMap = await response.json();
   } catch (error) {
     tableMap = {};
