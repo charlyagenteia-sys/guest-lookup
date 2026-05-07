@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busque su mesa · Rodríguez Touzard</title>
+    <link rel="stylesheet" href="style.css?v=20260416" />
+  </head>
+  <body
+    class="theme-alto-noviciado"
+    data-dataset="data/guests-rodriguez-touzard.json?v=20260507"
+    data-table-map="data/table-map-50.json"
+  >
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero-card invite-card">
+        <p class="event-meta">ALTO NOVICIADO · 9 MAYO 2026</p>
+        <span class="script-tag">Rodríguez — Touzard</span>
+        <h1>Encuentra tu mesa</h1>
+        <p class="intro-text">
+          Ingresa tu nombre tal como aparece en la invitación y te mostraremos tu mesa.
+        </p>
+        <form id="search-form" autocomplete="off">
+          <label for="query">Nombre o apellido</label>
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Michelle Touzard"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar</button>
+        </form>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite">
+          <div class="empty">Escribe tu nombre para ver la mesa.</div>
+        </div>
+        <div class="floorplan-card">
+          <h2>Plano Alto Noviciado</h2>
+          <p>Usa el número para ubicarte en el plano.</p>
+          <div class="floorplan-frame">
+            <img src="assets/noviciado-50mesas.jpg" alt="Plano de mesas Alto Noviciado" />
+          </div>
+          <a class="floorplan-link" href="assets/noviciado-50mesas.jpg" target="_blank" rel="noopener"
+            >Abrir en grande</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
