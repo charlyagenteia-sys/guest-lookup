@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busque su mesa · Matrimonio Lagos Ramírez</title>
+    <link rel="stylesheet" href="style.css?v=20260416" />
+  </head>
+  <body
+    class="theme-casa-amelia"
+    data-dataset="data/guests-lagos-ramirez.json?v=20260516"
+  >
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero-card invite-card">
+        <p class="event-meta">CASA AMELIA · 16 MAYO 2026</p>
+        <span class="script-tag">Matrimonio Lagos – Ramírez</span>
+        <h1>Encuentra tu mesa</h1>
+        <p class="intro-text">
+          Busca tu nombre tal como aparece en la invitación para ver tu mesa.
+        </p>
+        <form id="search-form" autocomplete="off">
+          <label for="query">Nombre o apellido</label>
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Alicia Ramírez"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar</button>
+        </form>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite">
+          <div class="empty">Escribe tu nombre para ver la mesa.</div>
+        </div>
+        <div class="floorplan-card">
+          <h2>Plano Casa Amelia</h2>
+          <p>Usa el número que aparece en la tarjeta para ubicarte en el mapa.</p>
+          <div class="floorplan-frame">
+            <img src="assets/lagos-ramirez-plano.png?v=20260516" alt="Plano de mesas Casa Amelia" />
+          </div>
+          <a class="floorplan-link" href="assets/lagos-ramirez-plano.png?v=20260516" target="_blank" rel="noopener"
+            >Abrir en grande</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

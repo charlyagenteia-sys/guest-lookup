@@ -1,0 +1,898 @@
+[
+  {
+    "name": "Alcalde Alfonso y Sra.",
+    "table": "31"
+  },
+  {
+    "name": "Alfaro Amalia",
+    "table": "11"
+  },
+  {
+    "name": "Alliende Sebastián y Sra.",
+    "table": "39"
+  },
+  {
+    "name": "Araya Anita y Acompañante",
+    "table": "10"
+  },
+  {
+    "name": "Araya Fernanda y Acompañante",
+    "table": "1"
+  },
+  {
+    "name": "Araya Margarita y Acompañante",
+    "table": "14"
+  },
+  {
+    "name": "Arrizaga Maruja",
+    "table": "16"
+  },
+  {
+    "name": "Averill Andrés y Acompañante",
+    "table": "9"
+  },
+  {
+    "name": "Avilés Jorge y Sra.",
+    "table": "20"
+  },
+  {
+    "name": "Bihan Claudia y Acompañante",
+    "table": "27"
+  },
+  {
+    "name": "Bihan Fernando y Acompañante",
+    "table": "26"
+  },
+  {
+    "name": "Bloise Mikele y Acompañante",
+    "table": "2"
+  },
+  {
+    "name": "Bravo Catalina y Acompañante",
+    "table": "10"
+  },
+  {
+    "name": "Budinich Ricardo y Sra.",
+    "table": "19"
+  },
+  {
+    "name": "Calvo Matías y Acompañante",
+    "table": "37"
+  },
+  {
+    "name": "Calvo Nicolás y Sra.",
+    "table": "39"
+  },
+  {
+    "name": "Campodónico Gianinna y Acompañante",
+    "table": "10"
+  },
+  {
+    "name": "Campos Francisco y Sra.",
+    "table": "9"
+  },
+  {
+    "name": "Canales Catalina y Bautista",
+    "table": "7"
+  },
+  {
+    "name": "Canales Florencia y Sebastián",
+    "table": "7"
+  },
+  {
+    "name": "Canales Guillermo e Isabel",
+    "table": "8"
+  },
+  {
+    "name": "Carmona Rodrigo y Sra.",
+    "table": "31"
+  },
+  {
+    "name": "Casado Cristián y Acompañante",
+    "table": "24"
+  },
+  {
+    "name": "Casado Daniela y Acompañante",
+    "table": "24"
+  },
+  {
+    "name": "Casado Esteban y Acompañante",
+    "table": "24"
+  },
+  {
+    "name": "Casado Soledad",
+    "table": "24"
+  },
+  {
+    "name": "Coll Isidora y Agustín",
+    "table": "2"
+  },
+  {
+    "name": "Concha Antonia y Acompañante",
+    "table": "1"
+  },
+  {
+    "name": "Cornejo Trinidad y Acompañante",
+    "table": "1"
+  },
+  {
+    "name": "Cortés Javiera y Acompañante",
+    "table": "14"
+  },
+  {
+    "name": "Covarrubias Tomás y Sra.",
+    "table": "37"
+  },
+  {
+    "name": "Criado Ljubiza y Acompañante",
+    "table": "36"
+  },
+  {
+    "name": "De Iruarrizaga Ignacio y Sra.",
+    "table": "19"
+  },
+  {
+    "name": "De la Cerda María Alicia",
+    "table": "16"
+  },
+  {
+    "name": "de Marchena Sofía y Tomás",
+    "table": "13"
+  },
+  {
+    "name": "Diaz Ismael y Acompañante",
+    "table": "3"
+  },
+  {
+    "name": "Dib Sofía y Acompañante",
+    "table": "10"
+  },
+  {
+    "name": "Dussaubat Sebastián y Acompañante",
+    "table": "4"
+  },
+  {
+    "name": "Díaz Álvaro y Sra.",
+    "table": "38"
+  },
+  {
+    "name": "Ellis Bárbara y Acompañante",
+    "table": "12"
+  },
+  {
+    "name": "Elzo Rodrigo y Sra.",
+    "table": "9"
+  },
+  {
+    "name": "Fernández Malú y Andrés",
+    "table": "2"
+  },
+  {
+    "name": "Flores Matías y Acompañante",
+    "table": "14"
+  },
+  {
+    "name": "Fuenzalida Benjamín y Acompañante",
+    "table": "17"
+  },
+  {
+    "name": "Fuenzalida Cecilia y Mauricio",
+    "table": "21"
+  },
+  {
+    "name": "Fuenzalida Diego y Manuela",
+    "table": "3"
+  },
+  {
+    "name": "Fuenzalida Francisca y Acompañante",
+    "table": "17"
+  },
+  {
+    "name": "Fuenzalida José Pedro y Sra",
+    "table": "8"
+  },
+  {
+    "name": "Fuenzalida Juan José y Acompañante",
+    "table": "7"
+  },
+  {
+    "name": "Fuenzalida Magdalena y Acompañante",
+    "table": "17"
+  },
+  {
+    "name": "Fuenzalida Raimundo y Sra",
+    "table": "17"
+  },
+  {
+    "name": "Fuenzalida Teresita y Acompañante",
+    "table": "7"
+  },
+  {
+    "name": "Fuenzalida Valentina y Acompañante",
+    "table": "17"
+  },
+  {
+    "name": "Gana A. Juan Pablo y Sra",
+    "table": "5"
+  },
+  {
+    "name": "Gana A. Luis y Sra",
+    "table": "37"
+  },
+  {
+    "name": "Gana Cristián y Sra",
+    "table": "37"
+  },
+  {
+    "name": "Gana de Landa Arturo y Sra",
+    "table": "34"
+  },
+  {
+    "name": "Gana Dominga y Acompañante",
+    "table": "7"
+  },
+  {
+    "name": "Gana E. Juan Pablo y Sra",
+    "table": "8"
+  },
+  {
+    "name": "Gana E. Luis y Sra",
+    "table": "21"
+  },
+  {
+    "name": "Gana Felipe",
+    "table": "8"
+  },
+  {
+    "name": "Gana Francisca y Acompañante",
+    "table": "18"
+  },
+  {
+    "name": "Gana Joaquín y Sra",
+    "table": "5"
+  },
+  {
+    "name": "Gana José Miguel y Sra",
+    "table": "18"
+  },
+  {
+    "name": "Gana María Jesús y Acompañante",
+    "table": "30"
+  },
+  {
+    "name": "Gana María Mercedes y Acompañante",
+    "table": "5"
+  },
+  {
+    "name": "Garcés Cristián y Sra",
+    "table": "37"
+  },
+  {
+    "name": "García Daniel",
+    "table": "37"
+  },
+  {
+    "name": "García Patricio y Sra",
+    "table": "31"
+  },
+  {
+    "name": "García Rocío",
+    "table": "11"
+  },
+  {
+    "name": "Gatica Alejandra y Acompañante",
+    "table": "27"
+  },
+  {
+    "name": "Gatica Loreto",
+    "table": "27"
+  },
+  {
+    "name": "Gilabert Fernando y Sra",
+    "table": "19"
+  },
+  {
+    "name": "Guenel Sebastián y Sra",
+    "table": "36"
+  },
+  {
+    "name": "Guzmán Carlos",
+    "table": "6"
+  },
+  {
+    "name": "Gómez Felipe y Acompañante",
+    "table": "29"
+  },
+  {
+    "name": "Gómez Javiera y Acompañante",
+    "table": "2"
+  },
+  {
+    "name": "Gómez Ricardo y Sra",
+    "table": "31"
+  },
+  {
+    "name": "Gónzalez Pamela y Acompañante",
+    "table": "12"
+  },
+  {
+    "name": "Hewstone Cecilia y Acompañante",
+    "table": "28"
+  },
+  {
+    "name": "Hewstone Jorge y Sra",
+    "table": "28"
+  },
+  {
+    "name": "Hewstone Loreto y Acompañante",
+    "table": "28"
+  },
+  {
+    "name": "Hormann Noelle",
+    "table": "11"
+  },
+  {
+    "name": "Igualt Pilar y Acompañante",
+    "table": "26"
+  },
+  {
+    "name": "Infante José Pedro y Acompañante",
+    "table": "39"
+  },
+  {
+    "name": "Jiménez Benjamín y Acompañante",
+    "table": "3"
+  },
+  {
+    "name": "Justiniano Juan Carlos y Acompañante",
+    "table": "4"
+  },
+  {
+    "name": "Kokaly Josefa",
+    "table": "11"
+  },
+  {
+    "name": "Konig Camilo y Acompañante",
+    "table": "36"
+  },
+  {
+    "name": "Kunstman Alfonso y Acompañante",
+    "table": "29"
+  },
+  {
+    "name": "Labbé Arturo y Sra",
+    "table": "37"
+  },
+  {
+    "name": "Lagazzio Giorgio y Acompañante",
+    "table": "15"
+  },
+  {
+    "name": "Lagos Agustín y Acompañante",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Lagos Benjamín",
+    "table": "22"
+  },
+  {
+    "name": "Lagos Benjamín y Acompañante",
+    "table": "35"
+  },
+  {
+    "name": "Lagos Carmen Gloria y Acompañante",
+    "table": "33"
+  },
+  {
+    "name": "Lagos Clemente",
+    "table": "22"
+  },
+  {
+    "name": "Lagos Cristóbal y Vale",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Lagos Dominga",
+    "table": "22"
+  },
+  {
+    "name": "Lagos F. Santiago y Sra",
+    "table": "32"
+  },
+  {
+    "name": "Lagos F. Sebastián y Sra",
+    "table": "32"
+  },
+  {
+    "name": "Lagos G. Andrés y María José",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Lagos Josefa",
+    "table": "22"
+  },
+  {
+    "name": "Lagos José Antonio y Sra",
+    "table": "34"
+  },
+  {
+    "name": "Lagos José María y Acompañante",
+    "table": "35"
+  },
+  {
+    "name": "Lagos Juan Francisco y Sra",
+    "table": "34"
+  },
+  {
+    "name": "Lagos Juan Ignacio",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Lagos Manuel",
+    "table": "22"
+  },
+  {
+    "name": "Lagos María Jesús y Acompañante",
+    "table": "35"
+  },
+  {
+    "name": "Lagos María Olga y Tomás",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Lagos Miguel Luis y Acompañante",
+    "table": "34"
+  },
+  {
+    "name": "Lagos Nicolás y Acompañante",
+    "table": "35"
+  },
+  {
+    "name": "Lagos Paulina y Acompañante",
+    "table": "35"
+  },
+  {
+    "name": "Lagos Pedro",
+    "table": "22"
+  },
+  {
+    "name": "Lagos Sofía",
+    "table": "22"
+  },
+  {
+    "name": "Lagos Tomás y María Paz",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Lagos V. Andrés",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Lagos V. Sebastián y Sra",
+    "table": "18"
+  },
+  {
+    "name": "Lagos Violeta",
+    "table": "22"
+  },
+  {
+    "name": "Latorre Luis y Sra",
+    "table": "21"
+  },
+  {
+    "name": "Letelier Ignacio y Sra",
+    "table": "3"
+  },
+  {
+    "name": "Letelier Matías",
+    "table": "38"
+  },
+  {
+    "name": "Letelier Sergio y Acompañante",
+    "table": "38"
+  },
+  {
+    "name": "Loayza Francisco y Acompañante",
+    "table": "6"
+  },
+  {
+    "name": "Luciniani María Ignacia y Acompañante",
+    "table": "1"
+  },
+  {
+    "name": "Manterola Patricio y Sra",
+    "table": "21"
+  },
+  {
+    "name": "Mazzachiodi Magdalena",
+    "table": "11"
+  },
+  {
+    "name": "Melelli Daniella y Acompañante",
+    "table": "13"
+  },
+  {
+    "name": "Mena Juan Andrés",
+    "table": "40"
+  },
+  {
+    "name": "Meneses Felipe y Sra",
+    "table": "13"
+  },
+  {
+    "name": "Mera Rosario",
+    "table": "11"
+  },
+  {
+    "name": "Merino Sebastián y Acompañante",
+    "table": "15"
+  },
+  {
+    "name": "Meyer Diego y Sra",
+    "table": "9"
+  },
+  {
+    "name": "Mimica Lukas y Acompañante",
+    "table": "15"
+  },
+  {
+    "name": "Mira Enrique y Sra",
+    "table": "20"
+  },
+  {
+    "name": "Miranda Pedro y Sra",
+    "table": "6"
+  },
+  {
+    "name": "Montané Matías y Sra",
+    "table": "18"
+  },
+  {
+    "name": "Montes Juan José y Sra",
+    "table": "39"
+  },
+  {
+    "name": "Moreno Francisca y Acompañante",
+    "table": "26"
+  },
+  {
+    "name": "Moreno Luis Óscar",
+    "table": "16"
+  },
+  {
+    "name": "Moreno Macarena y Acompañante",
+    "table": "27"
+  },
+  {
+    "name": "Moreno María Alicia Antonia",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Moreno María Carolina y Cristián",
+    "table": "16"
+  },
+  {
+    "name": "Moreno María José y Acompañante",
+    "table": "12"
+  },
+  {
+    "name": "Moreno Pilar",
+    "table": "26"
+  },
+  {
+    "name": "Morgan Alberto y Sra",
+    "table": "20"
+  },
+  {
+    "name": "Naranjo Daniela y Acompañante",
+    "table": "14"
+  },
+  {
+    "name": "NOMBRE",
+    "table": "MESA"
+  },
+  {
+    "name": "Núñez Tatiana y Acompañante",
+    "table": "24"
+  },
+  {
+    "name": "Ojeda Lionel y Sra",
+    "table": "38"
+  },
+  {
+    "name": "Ojeda Matías y Acompañante",
+    "table": "40"
+  },
+  {
+    "name": "Ojeda Sebastián y Sra",
+    "table": "3"
+  },
+  {
+    "name": "Olivos Esteban",
+    "table": "40"
+  },
+  {
+    "name": "Ortíz Guillermo y Acompañante",
+    "table": "4"
+  },
+  {
+    "name": "Ovalle Domingo y Acompañante",
+    "table": "4"
+  },
+  {
+    "name": "Pacheco Nicolás y Sra",
+    "table": "3"
+  },
+  {
+    "name": "Palma Gabriel y Sra",
+    "table": "20"
+  },
+  {
+    "name": "Pavez Juan Pablo y Paola",
+    "table": "6"
+  },
+  {
+    "name": "Perocarpi Martina y Acompañante",
+    "table": "10"
+  },
+  {
+    "name": "Petrinovic Carolina y Acompañante",
+    "table": "29"
+  },
+  {
+    "name": "Peñafiel Gustavo",
+    "table": "25"
+  },
+  {
+    "name": "Pinochet Alfredo y Sra",
+    "table": "31"
+  },
+  {
+    "name": "Piraino Martín y Acompañante",
+    "table": "40"
+  },
+  {
+    "name": "Poblete José Manuel y Sra",
+    "table": "34"
+  },
+  {
+    "name": "Ramírez A. Camilo",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Ramírez Adriana",
+    "table": "29"
+  },
+  {
+    "name": "Ramírez Andrés y Margarita",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Ramírez Constanza y Acompañante",
+    "table": "25"
+  },
+  {
+    "name": "Ramírez F. Camilo",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Ramírez F. Eugenia",
+    "table": "24"
+  },
+  {
+    "name": "Ramírez Inés y Acompañante",
+    "table": "28"
+  },
+  {
+    "name": "Ramírez Lidia y Acompañante",
+    "table": "28"
+  },
+  {
+    "name": "Ramírez M. Alicia",
+    "table": "NOVIOS"
+  },
+  {
+    "name": "Ramírez Pablo y Acompañante",
+    "table": "25"
+  },
+  {
+    "name": "Ramírez Pamela",
+    "table": "25"
+  },
+  {
+    "name": "Ramírez Quenita y Acompañante",
+    "table": "25"
+  },
+  {
+    "name": "Ramírez Ricardo y Acompañante",
+    "table": "25"
+  },
+  {
+    "name": "Rebolledo Eugenia",
+    "table": "29"
+  },
+  {
+    "name": "Ricci Carlos y Sra",
+    "table": "18"
+  },
+  {
+    "name": "Ricci Francisco y Acompañante",
+    "table": "32"
+  },
+  {
+    "name": "Ricci Joaquín y Acompañante",
+    "table": "32"
+  },
+  {
+    "name": "Ricci Magdalena y Acompañante",
+    "table": "32"
+  },
+  {
+    "name": "Rodríguez Cristián y Sra",
+    "table": "36"
+  },
+  {
+    "name": "Romero Alberto y Sra",
+    "table": "19"
+  },
+  {
+    "name": "Rubio María José y Sebastián",
+    "table": "10"
+  },
+  {
+    "name": "Saavedra María José y Fernando",
+    "table": "13"
+  },
+  {
+    "name": "Salas Eduardo y Sra",
+    "table": "19"
+  },
+  {
+    "name": "Salinas Ignacia y Tomás",
+    "table": "10"
+  },
+  {
+    "name": "Sanhueza Lucas y 3 Acompañantes",
+    "table": "30"
+  },
+  {
+    "name": "Sanhueza Martín y Acompañante",
+    "table": "30"
+  },
+  {
+    "name": "Santa María Verónica y Acompañante",
+    "table": "29"
+  },
+  {
+    "name": "Schmidt Anita y Cristián",
+    "table": "27"
+  },
+  {
+    "name": "Sepúlveda Antonia y Acompañante",
+    "table": "1"
+  },
+  {
+    "name": "Serrá Camila y Acompañante",
+    "table": "36"
+  },
+  {
+    "name": "Silva Daniel y Acompañante",
+    "table": "15"
+  },
+  {
+    "name": "Soffia C. Rodrigo y Acompañante",
+    "table": "8"
+  },
+  {
+    "name": "Soffia G. Rodrigo y Acompañante",
+    "table": "5"
+  },
+  {
+    "name": "Soffia José Tomás y Acompañante",
+    "table": "30"
+  },
+  {
+    "name": "Soffia María de los Ángeles y Acompañante",
+    "table": "5"
+  },
+  {
+    "name": "Soto Darinka y Acompañante",
+    "table": "36"
+  },
+  {
+    "name": "Stanke Carlos y Acompañante",
+    "table": "14"
+  },
+  {
+    "name": "Stark María José",
+    "table": "12"
+  },
+  {
+    "name": "Tagle Carlos y Acompañante",
+    "table": "16"
+  },
+  {
+    "name": "Tagle PIlar y Acompañante",
+    "table": "16"
+  },
+  {
+    "name": "Thomson Verónica y Acompañante",
+    "table": "26"
+  },
+  {
+    "name": "Valenzuela Alejandro y Sra",
+    "table": "33"
+  },
+  {
+    "name": "Valenzuela Alfonso y Sra",
+    "table": "40"
+  },
+  {
+    "name": "Valenzuela Antonio y Acompañante",
+    "table": "40"
+  },
+  {
+    "name": "Valenzuela Carolina y Acompañante",
+    "table": "23"
+  },
+  {
+    "name": "Valenzuela Cristián y Acompañante",
+    "table": "23"
+  },
+  {
+    "name": "Valenzuela Gerardo y Sra",
+    "table": "33"
+  },
+  {
+    "name": "Valenzuela Josefina y Acompañante",
+    "table": "23"
+  },
+  {
+    "name": "Valenzuela Luz y Acompañante",
+    "table": "33"
+  },
+  {
+    "name": "Valenzuela Miguel y Sra",
+    "table": "33"
+  },
+  {
+    "name": "Valenzuela Pía y Acompañante",
+    "table": "23"
+  },
+  {
+    "name": "Vallejos Tomás y Sra",
+    "table": "6"
+  },
+  {
+    "name": "Vega Matías y Sra",
+    "table": "4"
+  },
+  {
+    "name": "Vial Andrés y Sra",
+    "table": "31"
+  },
+  {
+    "name": "Vivado Juan Guillermo",
+    "table": "20"
+  },
+  {
+    "name": "Weitz Antonia y Acompañante",
+    "table": "2"
+  },
+  {
+    "name": "Wolleter Cristián y Sra",
+    "table": "21"
+  },
+  {
+    "name": "Zettler Kiko y Sra",
+    "table": "9"
+  },
+  {
+    "name": "Zoppi Javiera",
+    "table": "11"
+  },
+  {
+    "name": "Álvarez Valentina y Sebastián",
+    "table": "13"
+  }
+]
