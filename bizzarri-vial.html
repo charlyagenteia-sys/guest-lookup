@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busque su mesa · Matrimonio Bizzarri Vial</title>
+    <link rel="stylesheet" href="style.css?v=20260530" />
+  </head>
+  <body
+    class="theme-casa-amelia"
+    data-dataset="data/guests-bizzarri-vial.json?v=20260530"
+    data-table-map="data/table-map-bizzarri-vial.json?v=20260530"
+  >
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero-card invite-card">
+        <p class="event-meta">MATRIMONIO BIZZARRI · VIAL</p>
+        <span class="script-tag">Bizzarri - Vial</span>
+        <h1>Encuentra tu mesa</h1>
+        <p class="intro-text">
+          Escribe tu nombre o apellido para ver tu mesa asignada.
+        </p>
+        <form id="search-form" autocomplete="off">
+          <label for="query">Nombre o apellido</label>
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Juan Pablo Vial"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar</button>
+        </form>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite">
+          <div class="empty">Escribe tu nombre para ver la mesa.</div>
+        </div>
+        <div class="floorplan-card">
+          <h2>Plano de mesas</h2>
+          <p>Busca tu nombre y revisa el marcador en el mapa.</p>
+          <div class="floorplan-frame">
+            <img src="assets/bizzarri-vial-plano.jpg?v=20260530" alt="Plano de mesas Bizzarri Vial" />
+            <span id="floorplan-highlight" class="floorplan-highlight" hidden>
+              <span class="floorplan-tip">Mesa</span>
+              <span class="floorplan-ring"><span class="floorplan-number">—</span></span>
+            </span>
+          </div>
+          <a class="floorplan-link" href="assets/bizzarri-vial-plano.jpg?v=20260530" target="_blank" rel="noopener"
+            >Abrir en grande</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
