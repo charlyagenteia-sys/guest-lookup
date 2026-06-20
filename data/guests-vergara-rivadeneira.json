@@ -1,0 +1,586 @@
+[
+  {
+    "name": "Álamos Vicente y Larrañaga Josefina",
+    "table": "10"
+  },
+  {
+    "name": "Aldunate Teresita y Lira Raúl",
+    "table": "5"
+  },
+  {
+    "name": "Alliende Soledad",
+    "table": "25"
+  },
+  {
+    "name": "Amado Vial Antonio",
+    "table": "18"
+  },
+  {
+    "name": "Apel Sebastián y Belmar Andrea",
+    "table": "4"
+  },
+  {
+    "name": "Araneda Carolina y Albónico Ismael",
+    "table": "3"
+  },
+  {
+    "name": "Ariztía Cristina y Vergara Ramón",
+    "table": "21"
+  },
+  {
+    "name": "Arnaiz Victoria",
+    "table": "3"
+  },
+  {
+    "name": "Arrieta Benjamín",
+    "table": "6"
+  },
+  {
+    "name": "Astudillo Ricardo y Currier Teresa",
+    "table": "22"
+  },
+  {
+    "name": "Bernal Sebastián",
+    "table": "5"
+  },
+  {
+    "name": "Borbolla Pilar",
+    "table": "21"
+  },
+  {
+    "name": "Cancino Magdalena y Albónico José Domingo",
+    "table": "3"
+  },
+  {
+    "name": "Cancino Simona y Silberstein Javier",
+    "table": "2"
+  },
+  {
+    "name": "Carrasco Waldo y Soto Francisca",
+    "table": "15"
+  },
+  {
+    "name": "Casado Carla y Roca Javier",
+    "table": "1"
+  },
+  {
+    "name": "Cisternas Vicente y Cortéz Francisca",
+    "table": "8"
+  },
+  {
+    "name": "Correa Sebastián y Colomer Elisa",
+    "table": "4"
+  },
+  {
+    "name": "Court Gonzalo",
+    "table": "5"
+  },
+  {
+    "name": "Court P Gonzalo y Rivera María José",
+    "table": "21"
+  },
+  {
+    "name": "Covarrubias Josefa y La Frentz Germán",
+    "table": "6"
+  },
+  {
+    "name": "Del Río Alfonso y Cortéz Adriana",
+    "table": "16"
+  },
+  {
+    "name": "Del Río Antonia y Mackenney Tomás",
+    "table": "9"
+  },
+  {
+    "name": "Del Río Baeza Osvaldo y Del Río Pareja Osvaldo",
+    "table": "9"
+  },
+  {
+    "name": "Del Río Baeza Trinidad y Miquel Ignacio",
+    "table": "9"
+  },
+  {
+    "name": "Del Río Carola y Errázuriz Luis Hernan",
+    "table": "12"
+  },
+  {
+    "name": "Del Río Gabriel y Parot Bernardita",
+    "table": "16"
+  },
+  {
+    "name": "Del Río Javiera",
+    "table": "12"
+  },
+  {
+    "name": "Del Río Josefina y Bascuñan Felipe",
+    "table": "9"
+  },
+  {
+    "name": "Del Río Juan Andrés",
+    "table": "12"
+  },
+  {
+    "name": "Del Río Martín y Garfias Emilia",
+    "table": "9"
+  },
+  {
+    "name": "Del Río Mena Osvaldo y Sanhueza Paulina",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Del Río Mena Trinidad y Del Río Juan Carlos",
+    "table": "12"
+  },
+  {
+    "name": "Edwards Lucas y Vergara Javiera",
+    "table": "17"
+  },
+  {
+    "name": "Errázuriz Felipe y González Josefina",
+    "table": "5"
+  },
+  {
+    "name": "Espinosa Angélica",
+    "table": "10"
+  },
+  {
+    "name": "Espinosa Lorena y Salazar Juan Pablo",
+    "table": "20"
+  },
+  {
+    "name": "Fantini Fernando y Izcue Catalina",
+    "table": "7"
+  },
+  {
+    "name": "Fernández Cristóbal y Cruzat Trinidad",
+    "table": "8"
+  },
+  {
+    "name": "García Luis y Stevenson Carola",
+    "table": "18"
+  },
+  {
+    "name": "Gómez Felipe y Eguiguren Andrea",
+    "table": "19"
+  },
+  {
+    "name": "Gómez Sebastián y Salas Trinidad",
+    "table": "8"
+  },
+  {
+    "name": "González Pablo",
+    "table": "8"
+  },
+  {
+    "name": "Goycoolea Raimundo",
+    "table": "5"
+  },
+  {
+    "name": "Hiribarren Cristián",
+    "table": "25"
+  },
+  {
+    "name": "Hojas Sofía y Grunwald Eduardo",
+    "table": "2"
+  },
+  {
+    "name": "Inhen Pablo",
+    "table": "4"
+  },
+  {
+    "name": "Izquierdo Juan Pablo y Valdés Josefina",
+    "table": "20"
+  },
+  {
+    "name": "Jiménez Santiago y Valenzuela Jacinta",
+    "table": "7"
+  },
+  {
+    "name": "Keim Paula y Westermeyer Gerónimo",
+    "table": "11"
+  },
+  {
+    "name": "Küpfer Carolina",
+    "table": "25"
+  },
+  {
+    "name": "Labbé Catalina y Neely Agustín",
+    "table": "3"
+  },
+  {
+    "name": "Larraín Max",
+    "table": "4"
+  },
+  {
+    "name": "Larroulet Dominga",
+    "table": "1"
+  },
+  {
+    "name": "Leiva Alejandra y Ramírez Robinson Felipe",
+    "table": "25"
+  },
+  {
+    "name": "León Alejandro",
+    "table": "21"
+  },
+  {
+    "name": "Lorenzini Paula y Ureta Juan Diego",
+    "table": "2"
+  },
+  {
+    "name": "Maccihavelo Carlos y Cristi María José",
+    "table": "15"
+  },
+  {
+    "name": "Márquez de la Plata Agustín y Rodríguez Francisca",
+    "table": "4"
+  },
+  {
+    "name": "Marsal Débora",
+    "table": "5"
+  },
+  {
+    "name": "Mayol Manuela y Del Valle José Miguel",
+    "table": "10"
+  },
+  {
+    "name": "Mayol Mauricio y Solar Pilar",
+    "table": "10"
+  },
+  {
+    "name": "Medina Nicolás",
+    "table": "15"
+  },
+  {
+    "name": "Melero Agustín y Aguirre Constanza",
+    "table": "7"
+  },
+  {
+    "name": "Merino Augusta",
+    "table": "14"
+  },
+  {
+    "name": "Merino Carlos y Vergara María Paz",
+    "table": "16"
+  },
+  {
+    "name": "Merino Emilia",
+    "table": "14"
+  },
+  {
+    "name": "Molla Camila y Valenzuela Martín",
+    "table": "22"
+  },
+  {
+    "name": "Monreal Nicolás y Riveros Antonia",
+    "table": "6"
+  },
+  {
+    "name": "Montesinos Paula y Keim Marcelo",
+    "table": "20"
+  },
+  {
+    "name": "Mujica Martín y Urzúa Inés",
+    "table": "10"
+  },
+  {
+    "name": "Munita Ándres y Aray Vivian",
+    "table": "24"
+  },
+  {
+    "name": "Munita Macarena y Guldman Juan Pablo",
+    "table": "23"
+  },
+  {
+    "name": "Munita María del Carmen y Soto Rodrigo",
+    "table": "24"
+  },
+  {
+    "name": "Novoa Bulnes Eduardo y Fuenzalida Lavín María Jesús",
+    "table": "1"
+  },
+  {
+    "name": "Novoa Sara y García-Huidobro Cristián",
+    "table": "1"
+  },
+  {
+    "name": "Novoa Sofía y Hevia Sergio",
+    "table": "1"
+  },
+  {
+    "name": "Novoa Zegers Eduardo y Bulnes Carola",
+    "table": "19"
+  },
+  {
+    "name": "Ojeda Marcela y Scrofft Igor",
+    "table": "19"
+  },
+  {
+    "name": "Otero Rafael y Ortloff Ariela",
+    "table": "12"
+  },
+  {
+    "name": "Pardo Alejandro y Rodríguez Bárbara",
+    "table": "24"
+  },
+  {
+    "name": "Pérez Ignacia",
+    "table": "2"
+  },
+  {
+    "name": "Peterson Jacinta",
+    "table": "2"
+  },
+  {
+    "name": "Prieto Pablo y Martínez Elvira",
+    "table": "8"
+  },
+  {
+    "name": "Ramírez Elena",
+    "table": "11"
+  },
+  {
+    "name": "Ramírez Ignacia",
+    "table": "11"
+  },
+  {
+    "name": "Ramírez Leiva Felipe y Arnaiz Jacinta",
+    "table": "11"
+  },
+  {
+    "name": "Rengifo Francisca",
+    "table": "16"
+  },
+  {
+    "name": "Reyes Julio y Guevara Lilian",
+    "table": "25"
+  },
+  {
+    "name": "Reyes María Jesús y Parra Joaquín",
+    "table": "11"
+  },
+  {
+    "name": "Reyes Pablo y Vengenas Karin",
+    "table": "15"
+  },
+  {
+    "name": "Rivadeneira Agustina y Vergara Tomás",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Rivadeneira Florencia y Reyes Raimundo",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Rivadeneira Isidora y Reineke Juan",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Rivadeneira Jacinta",
+    "table": "1"
+  },
+  {
+    "name": "Rodríguez Andrés",
+    "table": "5"
+  },
+  {
+    "name": "Ruiz Tagle Alejandra",
+    "table": "6"
+  },
+  {
+    "name": "Sánchez Benjamín y Peñafiel Ignacia",
+    "table": "5"
+  },
+  {
+    "name": "Sanhueza Alfonso",
+    "table": "23"
+  },
+  {
+    "name": "Sanhueza Carmen",
+    "table": "25"
+  },
+  {
+    "name": "Sanhueza Juan Pablo y Cazuza Fabrizia",
+    "table": "23"
+  },
+  {
+    "name": "Soriano Felipe y Salas Fernanda",
+    "table": "24"
+  },
+  {
+    "name": "Tagle Rosario y Figueroa Camilo",
+    "table": "3"
+  },
+  {
+    "name": "Torrealba Carolina y Witting Leonardo",
+    "table": "21"
+  },
+  {
+    "name": "Ugarte Felipe",
+    "table": "15"
+  },
+  {
+    "name": "Ugarte Nicolás y Rodríguez Sara",
+    "table": "8"
+  },
+  {
+    "name": "Undurraga Francisco y Ramírez María José",
+    "table": "15"
+  },
+  {
+    "name": "Ureta Alejandra y Váldes Alfredo",
+    "table": "6"
+  },
+  {
+    "name": "Valdés Carolina",
+    "table": "6"
+  },
+  {
+    "name": "Valdés Cecilia y Aránguiz Francisco",
+    "table": "17"
+  },
+  {
+    "name": "Valdés Enrique y Vial Elisa",
+    "table": "18"
+  },
+  {
+    "name": "Valdés Ismael",
+    "table": "4"
+  },
+  {
+    "name": "Valdés María y Munita Benjamín",
+    "table": "13"
+  },
+  {
+    "name": "Valenzuela Enrique y Pinochet Lorena",
+    "table": "22"
+  },
+  {
+    "name": "Vallejo Agustín y Errázuriz María Paz",
+    "table": "13"
+  },
+  {
+    "name": "Vallejo Domingo y Henríquez Andrea",
+    "table": "13"
+  },
+  {
+    "name": "Vallejo Isabel y Medina Iñigo",
+    "table": "13"
+  },
+  {
+    "name": "Vallejo Lucas y Allende Pacita",
+    "table": "13"
+  },
+  {
+    "name": "Vasquez Carmen",
+    "table": "23"
+  },
+  {
+    "name": "Vásquez Rosario",
+    "table": "23"
+  },
+  {
+    "name": "Véliz Francisco y Tortora Fernanda",
+    "table": "4"
+  },
+  {
+    "name": "Vergara Anita y Elizalde Luis",
+    "table": "22"
+  },
+  {
+    "name": "Vergara Del Río Arturo y Menanteaux Paulina",
+    "table": "16"
+  },
+  {
+    "name": "Vergara Felipe",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Vergara Francisco y Larraín Clarita",
+    "table": "14"
+  },
+  {
+    "name": "Vergara Josefina y Fernández Juan",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Vergara Juan Pablo y Vial Mercedes",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Vergara M. Loretto y Ríos Germán",
+    "table": "17"
+  },
+  {
+    "name": "Vergara Magdalena y Narváes Fernando",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Vergara Matías y Hermosilla Jacinta",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Vergara Pablo y García Trinidad",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Vergara Rengifo Arturo y Portales Paloma",
+    "table": "17"
+  },
+  {
+    "name": "Vergara Rengifo Francisca",
+    "table": "17"
+  },
+  {
+    "name": "Vergara Sebastián y Echeverría Jacinta",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Vergara Sofía y Cumsille Pedro",
+    "table": "PRINCIPAL"
+  },
+  {
+    "name": "Vial Agustín y Brown Catalina",
+    "table": "14"
+  },
+  {
+    "name": "Vial Anita y Alonso Nicolás",
+    "table": "14"
+  },
+  {
+    "name": "Vial Carola y Vallejo Mauricio",
+    "table": "18"
+  },
+  {
+    "name": "Vial Exequiel y Edwards Beatríz",
+    "table": "7"
+  },
+  {
+    "name": "Vial Ignacio",
+    "table": "6"
+  },
+  {
+    "name": "Vial Patricia y Amado Antonio",
+    "table": "18"
+  },
+  {
+    "name": "Vial Paulina y Álamos Cristián",
+    "table": "18"
+  },
+  {
+    "name": "Vicencio Santiago y Silva Dominga",
+    "table": "7"
+  },
+  {
+    "name": "Vildosola Andrea y Concha Rodrigo",
+    "table": "19"
+  },
+  {
+    "name": "Weber María Carolina y Maldonado Francisco",
+    "table": "25"
+  },
+  {
+    "name": "Zambrano Lorena y Montesinos Ricardo",
+    "table": "20"
+  }
+]
