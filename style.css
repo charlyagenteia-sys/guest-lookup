@@ -68,6 +68,43 @@ body.theme-vik .logo-badge span {
   text-transform: uppercase;
   color: #5c5a59;
 }
+
+body.theme-walker-mackenna {
+  --cream: #f7f2ea;
+  --gold: #7c5b34;
+  --charcoal: #1d1a17;
+  --muted: #72685e;
+  background: radial-gradient(circle at top, rgba(244, 236, 224, 0.95), rgba(234, 225, 210, 0.48));
+}
+
+body.theme-walker-mackenna .backdrop {
+  background:
+    linear-gradient(145deg, rgba(18, 31, 24, 0.58), rgba(40, 52, 44, 0.38)),
+    url('assets/plano-walker-mackenna.png') center/cover;
+  filter: blur(14px) saturate(0.92);
+  opacity: 0.88;
+}
+
+body.theme-walker-mackenna::after {
+  background: rgba(247, 242, 234, 0.76);
+}
+
+body.theme-walker-mackenna .hero-card,
+body.theme-walker-mackenna .results-panel {
+  border: 1px solid rgba(38, 52, 44, 0.08);
+}
+
+body.theme-walker-mackenna #search-form button {
+  background: #24352d;
+}
+
+body.theme-walker-mackenna #search-form button:hover {
+  background: #17251f;
+}
+
+body.theme-walker-mackenna .result-card .mesa {
+  background: #7c5b34;
+}
 * {
   box-sizing: border-box;
 }

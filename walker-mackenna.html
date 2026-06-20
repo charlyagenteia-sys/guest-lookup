@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busque su mesa · Matrimonio Walker - Mackenna</title>
+    <link rel="stylesheet" href="style.css?v=20260620" />
+  </head>
+  <body
+    class="theme-walker-mackenna"
+    data-dataset="data/guests-walker-mackenna.json?v=20260620"
+    data-table-map="data/table-map-walker-mackenna.json?v=20260620"
+  >
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero-card invite-card">
+        <p class="event-meta">MATRIMONIO WALKER · MACKENNA · 20 JUNIO 2026</p>
+        <span class="script-tag">Walker - Mackenna</span>
+        <h1>Encuentra tu mesa</h1>
+        <p class="intro-text">
+          Escribe tu nombre o apellido tal como aparece en la lista para ver tu mesa asignada.
+        </p>
+        <form id="search-form" autocomplete="off">
+          <label for="query">Nombre o apellido</label>
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Juan Walker"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar</button>
+        </form>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite">
+          <div class="empty">Escribe tu nombre para ver la mesa.</div>
+        </div>
+        <div class="floorplan-card">
+          <h2>Plano del salón</h2>
+          <p>El círculo marca la mesa del resultado activo.</p>
+          <div class="floorplan-frame">
+            <img src="assets/plano-walker-mackenna.png?v=20260620" alt="Plano de mesas Walker - Mackenna" />
+            <span id="floorplan-highlight" class="floorplan-highlight" hidden>
+              <span class="floorplan-tip">Mesa</span>
+              <span class="floorplan-ring"><span class="floorplan-number">—</span></span>
+            </span>
+          </div>
+          <a class="floorplan-link" href="assets/plano-walker-mackenna.png?v=20260620" target="_blank" rel="noopener"
+            >Abrir en grande</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
