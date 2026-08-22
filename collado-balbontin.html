@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuentra tu mesa · Collado Balbontin</title>
+    <link rel="stylesheet" href="style.css?v=20260822" />
+    <style>
+      body.theme-collado-balbontin {
+        --cream: #f4efe7;
+        --gold: #7b5d34;
+        --charcoal: #171512;
+        --muted: #675d52;
+        --card-bg: rgba(255, 252, 247, 0.9);
+        background:
+          radial-gradient(circle at top, rgba(251, 244, 233, 0.96), rgba(234, 224, 210, 0.6)),
+          linear-gradient(180deg, #f8f2e9 0%, #efe4d4 100%);
+      }
+
+      body.theme-collado-balbontin .backdrop {
+        background:
+          linear-gradient(145deg, rgba(25, 20, 16, 0.66), rgba(92, 71, 47, 0.28)),
+          url('assets/collado-balbontin-plano.jpg?v=20260822') center/cover;
+        filter: blur(16px) saturate(0.9);
+        opacity: 0.78;
+      }
+
+      body.theme-collado-balbontin::after {
+        background: rgba(244, 239, 231, 0.76);
+      }
+
+      body.theme-collado-balbontin .hero-card,
+      body.theme-collado-balbontin .results-panel {
+        border: 1px solid rgba(72, 56, 35, 0.08);
+      }
+
+      body.theme-collado-balbontin #search-form button {
+        background: #1a1612;
+      }
+
+      body.theme-collado-balbontin #search-form button:hover {
+        background: #000;
+      }
+
+      body.theme-collado-balbontin .result-card .mesa {
+        background: #7b5d34;
+      }
+
+      body.theme-collado-balbontin .hero-card h1 {
+        letter-spacing: 0.06em;
+      }
+
+      .qr-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.9rem;
+        align-items: center;
+        padding: 1.25rem 1.4rem;
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.84);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .qr-card h2 {
+        margin: 0;
+        font-size: 0.95rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .qr-card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .qr-card img {
+        width: min(240px, 100%);
+        margin: 0 auto;
+        display: block;
+        border-radius: 18px;
+        background: #fff;
+        padding: 0.45rem;
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+      }
+
+      .floorplan-card .floorplan-link,
+      .qr-card a {
+        display: inline-flex;
+        width: fit-content;
+        align-items: center;
+        gap: 0.45rem;
+        text-decoration: none;
+        border-bottom: 1px solid currentColor;
+        padding-bottom: 0.05rem;
+      }
+
+      .hero-note {
+        margin: 0.1rem 0 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+    </style>
+  </head>
+  <body
+    class="theme-collado-balbontin"
+    data-dataset="data/guests-collado-balbontin.json?v=20260822"
+    data-table-map="data/table-map-collado-balbontin.json?v=20260822"
+  >
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero-card invite-card">
+        <p class="script-tag">Collado Balbontin</p>
+        <p class="event-meta">Encuentra tu mesa</p>
+        <h1>Buscador de mesas</h1>
+        <p class="intro-text">
+          Busca tu nombre o apellido tal como aparece en la lista y mira la mesa exacta en el plano.
+        </p>
+        <form id="search-form" autocomplete="off">
+          <label for="query">Nombre o apellido</label>
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Juan Ignacio, Collado o Horn"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar mesa</button>
+          <small>* Funciona sin tildes y sin importar mayúsculas/minúsculas.</small>
+        </form>
+        <p class="hero-note">Escanea el QR, busca tu nombre y sigue la mesa resaltada en el plano.</p>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite"></div>
+
+        <div class="floorplan-card">
+          <h2>Plano del salón</h2>
+          <p>La burbuja marca la mesa encontrada en la búsqueda.</p>
+          <div class="floorplan-frame">
+            <img src="assets/collado-balbontin-plano.jpg?v=20260822" alt="Plano del matrimonio Collado Balbontin" />
+            <span id="floorplan-highlight" class="floorplan-highlight" hidden>
+              <span class="floorplan-tip">Mesa</span>
+              <span class="floorplan-ring"><span class="floorplan-number">—</span></span>
+            </span>
+          </div>
+          <a class="floorplan-link" href="assets/collado-balbontin-plano.jpg?v=20260822" target="_blank" rel="noopener"
+            >Abrir en pantalla completa</a
+          >
+        </div>
+
+        <div class="qr-card">
+          <h2>QR del evento</h2>
+          <p>Este QR abre directo la app de búsqueda.</p>
+          <img src="assets/qr-collado-balbontin.png?v=20260822" alt="QR del matrimonio Collado Balbontin" />
+          <a
+            href="https://charlyagenteia-sys.github.io/guest-lookup/collado-balbontin.html?v=20260822"
+            target="_blank"
+            rel="noopener"
+          >
+            Abrir página pública
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
