@@ -1,51 +1,56 @@
-# Buscador de Mesas — Testeo Charly
+# Buscador de Mesas · Guest Lookup
 
-Prototipo de aplicación web estática para que los invitados ingresen su nombre y obtengan su número de mesa desde un único QR por matrimonio.
+Motor estático para buscar invitados por nombre o mesa y mostrar su ubicación en el salón.
 
-## Estructura
+## Evento actual
 
+### Cote y Lau
+- **Página:** `cote-lau.html`
+- **Dataset de invitados:** `data/guests-cote-lau.json`
+- **Resumen de mesas:** `data/tables-cote-lau.json`
+- **Fuente:** hoja de cálculo "Mesas- Cote y Lau" con dos pestañas:
+  - invitados (`Apellido / Nombre / Acompañante / MESA`)
+  - distribución de mesas (`Número de mesa / Cantidad de personas / Detalles`)
+
+La página nueva muestra:
+- búsqueda por nombre, apellido o mesa
+- acompañante registrado
+- resumen de 56 mesas con capacidad y ocupación
+- alertas de platos especiales desde la planilla
+
+## Cómo probar
+
+```bash
+cd projects/guest-lookup
+python -m http.server 4173
 ```
-projects/guest-lookup
-├── index.html            # Página principal
-├── style.css             # Estilos minimalistas adaptables a mobile
-├── app.js                # Lógica de búsqueda (normaliza nombres, busca por coincidencia parcial)
-├── data/
-│   └── guests-sample.json  # Datos generados desde el Excel de prueba
-├── assets/
-│   └── qr-testeo-charly.png  # QR que apunta a http://localhost:4173/testeo-charly
-└── README.md
-```
 
-## Cómo probarlo
+Luego abre:
+- `http://localhost:4173/cote-lau.html`
 
-1. Abrir la carpeta en el navegador (doble click a `index.html`) **o** levantar un server local:
-   ```bash
-   cd projects/guest-lookup
-   npx serve .
-   # o
-   python -m http.server 4173
-   ```
-2. Escanear el QR de `assets/qr-testeo-charly.png` o abrir la URL que uses en tu server.
-3. Escribir nombre y apellido y verificar el número de mesa.
+## Cómo refrescar los datos
 
-## Actualizar la lista de invitados
+1. Exporta la hoja de Google Sheets a CSV por pestaña.
+2. Reemplaza:
+   - `data/guests-cote-lau.json`
+   - `data/tables-cote-lau.json`
+3. Recarga la página.
 
-1. Coloca el Excel del matrimonio en algún lugar del workspace.
-2. Transforma el archivo a JSON con:  
-   ```bash
-   source external/venv/bin/activate
-   python scripts/guestlist-to-json.py "ruta/al/Excel.xlsx" projects/guest-lookup/data/guests-sample.json
-   ```
-3. Refresca la página; el buscador leerá automáticamente el nuevo JSON.
+## Motor compartido
 
-## Próximos pasos
+- `app.js` sigue funcionando con eventos viejos que solo usan `data-dataset`.
+- Si una página define `data-tables`, además activa el resumen de mesas.
+- Si define `data-table-map`, el motor también puede resaltar el plano.
 
-- Permitir múltiples matrimonios (dataset + query param).
-- Agregar branding personalizado según paleta del evento.
-- Preparar script para minificar/zippear y subir a hosting (Netlify / GitHub Pages) y regenerar QR definitivo.
+## Deploy
 
-## Deploy (GitHub Pages)
+- Repo: `projects/guest-lookup`
+- GitHub Pages: `https://charlyagenteia-sys.github.io/guest-lookup/`
 
-- Repo: https://github.com/charlyagenteia-sys/guest-lookup
-- Producción: https://charlyagenteia-sys.github.io/guest-lookup/
-- Para publicar cambios: `cd projects/guest-lookup && git add . && git commit -m "..." && git push origin main`
+## QR
+
+- `assets/qr-cote-lau.png`
+- `assets/qr-cote-lau-300dpi.png`
+- `assets/qr-cote-lau.pdf`
+
+La URL pública objetivo es `https://charlyagenteia-sys.github.io/guest-lookup/cote-lau.html?v=20260925`.

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cote y Lau · Encuentra tu mesa</title>
+    <link rel="stylesheet" href="style.css?v=20260925" />
+  </head>
+  <body
+    class="theme-cote-lau"
+    data-event-name="Cote y Lau"
+    data-dataset="data/guests-cote-lau.json"
+    data-tables="data/tables-cote-lau.json"
+    data-table-map=""
+  >
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero-card invite-card">
+        <p class="script-tag">Cote y Lau</p>
+        <h1>Ubica a tus invitados</h1>
+        <p class="intro-text">
+          Busca por nombre, apellido o mesa. La app lee el Excel real y te devuelve la
+          asignación exacta junto con el acompañante registrado.
+        </p>
+
+        <form id="search-form" autocomplete="off">
+          <label for="query">Nombre, apellido o mesa</label>
+          <input
+            id="query"
+            name="query"
+            type="search"
+            placeholder="Ej: Alberto Abauad, mesa 19, novios"
+            spellcheck="false"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Buscar mesa</button>
+        </form>
+
+        <div class="stat-strip" aria-label="Resumen del archivo">
+          <div class="stat-pill">
+            <strong class="stat-value" id="stat-guests">312</strong>
+            <span class="stat-label">invitados</span>
+          </div>
+          <div class="stat-pill">
+            <strong class="stat-value" id="stat-tables">56</strong>
+            <span class="stat-label">mesas</span>
+          </div>
+          <div class="stat-pill">
+            <strong class="stat-value" id="stat-capacity">542</strong>
+            <span class="stat-label">cupos</span>
+          </div>
+          <div class="stat-pill">
+            <strong class="stat-value" id="stat-specials">18</strong>
+            <span class="stat-label">platos especiales</span>
+          </div>
+        </div>
+
+        <p class="hero-note">
+          Toca una mesa en el resumen para ver su roster completo. La distribución conserva el
+          orden del Excel: novios, mesas 1 a 56 y sus notas especiales.
+        </p>
+
+        <div class="quick-chip-row" aria-label="Mesas rápidas">
+          <button class="quick-chip" type="button" data-table="NOVIOS">Novios</button>
+          <button class="quick-chip" type="button" data-table="19">Mesa 19</button>
+          <button class="quick-chip" type="button" data-table="25">Mesa 25</button>
+          <button class="quick-chip" type="button" data-table="56">Mesa 56</button>
+        </div>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite"></div>
+
+        <section class="table-summary-card">
+          <h2>Resumen de mesas</h2>
+          <p>Capacidad, ocupación y notas derivadas de la pestaña de distribución.</p>
+          <div id="table-summary" class="table-grid"></div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1562 @@
+[
+  {
+    "name": "Alberto Abauad",
+    "table": "19",
+    "companion": "Jasne Jatip"
+  },
+  {
+    "name": "Ricardo Abuauad",
+    "table": "19",
+    "companion": "Paulina Magasich"
+  },
+  {
+    "name": "Alfonso Acevedo",
+    "table": "1",
+    "companion": "Maria Graciela Diaz"
+  },
+  {
+    "name": "Cristian Aguila",
+    "table": "1",
+    "companion": "Yolanda Elices"
+  },
+  {
+    "name": "Diego Aguirre",
+    "table": "8",
+    "companion": ""
+  },
+  {
+    "name": "Hernan Aguirre",
+    "table": "26",
+    "companion": "Denyse Delaveau"
+  },
+  {
+    "name": "Ignacia Aguirre",
+    "table": "32",
+    "companion": ""
+  },
+  {
+    "name": "Amelia Aguirre",
+    "table": "32",
+    "companion": "Vicente Falcone"
+  },
+  {
+    "name": "Sebastian Alcalde",
+    "table": "56",
+    "companion": ""
+  },
+  {
+    "name": "Matias Alessandrini",
+    "table": "6",
+    "companion": "Amaya Zuazola"
+  },
+  {
+    "name": "Martin Aljaro",
+    "table": "21",
+    "companion": "Tamara Lopez"
+  },
+  {
+    "name": "Luciano Alvarado",
+    "table": "56",
+    "companion": ""
+  },
+  {
+    "name": "Nicolas Amenabar",
+    "table": "11",
+    "companion": "Macarena Llugany"
+  },
+  {
+    "name": "Angel Andraca",
+    "table": "31",
+    "companion": "Maria Ester Zuazola"
+  },
+  {
+    "name": "Juan Arancibia",
+    "table": "5",
+    "companion": "Marcela Parada"
+  },
+  {
+    "name": "Andres Arancibia",
+    "table": "39",
+    "companion": "Constanza Courdurier"
+  },
+  {
+    "name": "Francisco Araya",
+    "table": "56",
+    "companion": ""
+  },
+  {
+    "name": "Jaime Assael",
+    "table": "49",
+    "companion": "Eileen Garriga"
+  },
+  {
+    "name": "Pedro Audibert",
+    "table": "48",
+    "companion": ""
+  },
+  {
+    "name": "Sebastian Baeza",
+    "table": "49",
+    "companion": "Ana Luisa Varela"
+  },
+  {
+    "name": "Juan Bagnara",
+    "table": "11",
+    "companion": "Constanza Lara"
+  },
+  {
+    "name": "Felipe Barclay",
+    "table": "37",
+    "companion": "Sra"
+  },
+  {
+    "name": "Leopoldo Bascuñan",
+    "table": "18",
+    "companion": ""
+  },
+  {
+    "name": "Sergio Bascuñan",
+    "table": "53",
+    "companion": "Ignacia Hormaechea"
+  },
+  {
+    "name": "Benjamin Bastian",
+    "table": "33",
+    "companion": "Sofia Rioja"
+  },
+  {
+    "name": "Carlos Bau",
+    "table": "16",
+    "companion": "Macarena Velarde"
+  },
+  {
+    "name": "Ignacio Berrios",
+    "table": "52",
+    "companion": ""
+  },
+  {
+    "name": "Oscar Biehl",
+    "table": "30",
+    "companion": "Claudia Bacigalupo"
+  },
+  {
+    "name": "Matias Blanc",
+    "table": "51",
+    "companion": "Fernanda Sole"
+  },
+  {
+    "name": "Hernan Blanche",
+    "table": "54",
+    "companion": "Barbara Fernandez"
+  },
+  {
+    "name": "Gonzalo Bofill",
+    "table": "N",
+    "companion": "Veronica Schmidt"
+  },
+  {
+    "name": "Pablo Bofill",
+    "table": "N",
+    "companion": "M Eugenia Troncoso"
+  },
+  {
+    "name": "Julian Bofill",
+    "table": "N",
+    "companion": "Pia Valdes"
+  },
+  {
+    "name": "Joaquin Bofill",
+    "table": "N",
+    "companion": "Maria Jesus De la Cuesta"
+  },
+  {
+    "name": "Gracia Bofill",
+    "table": "22",
+    "companion": ""
+  },
+  {
+    "name": "Franco Bofill",
+    "table": "23",
+    "companion": "Acompañante"
+  },
+  {
+    "name": "Camila Bofill",
+    "table": "23",
+    "companion": ""
+  },
+  {
+    "name": "Federico Bofill",
+    "table": "23",
+    "companion": ""
+  },
+  {
+    "name": "Teresita Bofill",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Juan Pablo Bofill",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Colomba Bofill",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Pedro Bofill",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Manuel Bofill",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Armando Bofill",
+    "table": "28",
+    "companion": "Sandra Vigolo"
+  },
+  {
+    "name": "Cristian Bofill",
+    "table": "28",
+    "companion": "Sra"
+  },
+  {
+    "name": "Maria Soledad Bofill",
+    "table": "28",
+    "companion": ""
+  },
+  {
+    "name": "Juan Ignacio Bofill",
+    "table": "28",
+    "companion": "Teresa Lopez"
+  },
+  {
+    "name": "Gonzalo Bofill M",
+    "table": "22",
+    "companion": "Maite Galeguillos"
+  },
+  {
+    "name": "Gonzalo Bofill S",
+    "table": "N",
+    "companion": "M Teresa Muñoz"
+  },
+  {
+    "name": "Pablo Boutaud",
+    "table": "9",
+    "companion": "Claudia Labraña"
+  },
+  {
+    "name": "Eduardo Bustamante",
+    "table": "54",
+    "companion": ""
+  },
+  {
+    "name": "Rafael Bustos",
+    "table": "34",
+    "companion": "Nuria Palma"
+  },
+  {
+    "name": "Claudio Caceres",
+    "table": "35",
+    "companion": "Marcela Lira"
+  },
+  {
+    "name": "Carlos Caceres",
+    "table": "37",
+    "companion": "Ines Solórzano"
+  },
+  {
+    "name": "Oscar Caceres",
+    "table": "42",
+    "companion": "Veronica Venegas"
+  },
+  {
+    "name": "Leonardo Calderon",
+    "table": "9",
+    "companion": "Eugenia"
+  },
+  {
+    "name": "Pablo Calderon",
+    "table": "43",
+    "companion": "Victoria Hinrichs"
+  },
+  {
+    "name": "Elias Calquin",
+    "table": "5",
+    "companion": ""
+  },
+  {
+    "name": "Bruno Caltarigone",
+    "table": "24",
+    "companion": "Carmen Eltit"
+  },
+  {
+    "name": "Baltazar Canepa",
+    "table": "51",
+    "companion": "Agustina Iannello"
+  },
+  {
+    "name": "Diego Carvallo",
+    "table": "7",
+    "companion": ""
+  },
+  {
+    "name": "Raimundo Carvallo",
+    "table": "26",
+    "companion": "Soledad Sciaccaluga"
+  },
+  {
+    "name": "Ignacio Carvallo",
+    "table": "38",
+    "companion": "Margarita Nigbur"
+  },
+  {
+    "name": "Juan Pablo Carvallo",
+    "table": "38",
+    "companion": "Bernardita Milad"
+  },
+  {
+    "name": "Raimundo Carvallo S",
+    "table": "38",
+    "companion": "Macarena Fernandez"
+  },
+  {
+    "name": "Rodrigo Castañeda",
+    "table": "10",
+    "companion": "Maria Paz Faure"
+  },
+  {
+    "name": "Joaquin Castro",
+    "table": "52",
+    "companion": "Catalina Wobbe"
+  },
+  {
+    "name": "Juan Ignacio Cerda",
+    "table": "21",
+    "companion": "Macarena Malandre"
+  },
+  {
+    "name": "Francisco Collado",
+    "table": "1",
+    "companion": "Daniela Martinez"
+  },
+  {
+    "name": "Martin Comas",
+    "table": "55",
+    "companion": "Isabel Latorre"
+  },
+  {
+    "name": "Cristobal Contardo",
+    "table": "8",
+    "companion": "Javiera Etcheverry"
+  },
+  {
+    "name": "Mary Anne Cooper",
+    "table": "41",
+    "companion": ""
+  },
+  {
+    "name": "Javier Cornejo",
+    "table": "52",
+    "companion": "Laura Moreno"
+  },
+  {
+    "name": "Luis Cortes",
+    "table": "9",
+    "companion": "Maria Cecilia Vergara"
+  },
+  {
+    "name": "Alejandro Cosmelli",
+    "table": "34",
+    "companion": "Marcela Maturana"
+  },
+  {
+    "name": "Gianpiero Costa",
+    "table": "32",
+    "companion": "Macarena Paladino"
+  },
+  {
+    "name": "Francisco Costa",
+    "table": "35",
+    "companion": "Carmen Gloria Jawor"
+  },
+  {
+    "name": "Francisca Costa",
+    "table": "35",
+    "companion": ""
+  },
+  {
+    "name": "Jaime Court",
+    "table": "37",
+    "companion": "Ines Clavier"
+  },
+  {
+    "name": "Tomas Court",
+    "table": "48",
+    "companion": ""
+  },
+  {
+    "name": "Humberto Cuevas Arze",
+    "table": "27",
+    "companion": "Isabel"
+  },
+  {
+    "name": "Humberto Cuevas Silva",
+    "table": "2",
+    "companion": "Victoria Chellet"
+  },
+  {
+    "name": "Italo Cunneo",
+    "table": "15",
+    "companion": "Claudia Airola"
+  },
+  {
+    "name": "Manuel Dagnino",
+    "table": "49",
+    "companion": "Macarena Lledo"
+  },
+  {
+    "name": "Claudio Dalmazo",
+    "table": "3",
+    "companion": "Bernardita Leniz"
+  },
+  {
+    "name": "Gonzalo Davalos",
+    "table": "17",
+    "companion": "Monica Bravo"
+  },
+  {
+    "name": "Jose Antonio Davalos",
+    "table": "17",
+    "companion": ""
+  },
+  {
+    "name": "Sebastian Davalos",
+    "table": "47",
+    "companion": "Catalina Belaunde"
+  },
+  {
+    "name": "Luigi De Gregori",
+    "table": "47",
+    "companion": "Fernanda Rojas"
+  },
+  {
+    "name": "Agustin De la Cuesta",
+    "table": "20",
+    "companion": "Carmen Gloria"
+  },
+  {
+    "name": "Enrique Dellafiori",
+    "table": "30",
+    "companion": "Mónica Albala"
+  },
+  {
+    "name": "Rodrigo Diaz",
+    "table": "50",
+    "companion": "Charlotte Cook"
+  },
+  {
+    "name": "Marco Diaz",
+    "table": "52",
+    "companion": "Javiera Arancibia"
+  },
+  {
+    "name": "Francisca Díaz",
+    "table": "13",
+    "companion": ""
+  },
+  {
+    "name": "Eduardo Dib",
+    "table": "40",
+    "companion": "Lilian Gorke"
+  },
+  {
+    "name": "Tomas Dib",
+    "table": "43",
+    "companion": "Camila Nahmias"
+  },
+  {
+    "name": "Anibal Dominguez",
+    "table": "3",
+    "companion": "Magdalena Bermudez"
+  },
+  {
+    "name": "Hector Duran",
+    "table": "2",
+    "companion": "Paulina Gonzalez"
+  },
+  {
+    "name": "Martin Elorriaga",
+    "table": "43",
+    "companion": ""
+  },
+  {
+    "name": "Juan Eduardo Escudero",
+    "table": "29",
+    "companion": "Idamarie Mahn Rivas"
+  },
+  {
+    "name": "Enrique Escudero",
+    "table": "47",
+    "companion": "Francisca Friedemann"
+  },
+  {
+    "name": "Xavier Espinosa",
+    "table": "N",
+    "companion": "Valentina Bofill"
+  },
+  {
+    "name": "Ferran Espinosa",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Laia Espinosa",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Marina Espinosa",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Fernando Estebanez",
+    "table": "21",
+    "companion": "Consuelo Fernández"
+  },
+  {
+    "name": "Matthew Faille",
+    "table": "46",
+    "companion": "Nicole Bar"
+  },
+  {
+    "name": "Trinidad Fell",
+    "table": "33",
+    "companion": ""
+  },
+  {
+    "name": "Cristian Fernandez",
+    "table": "7",
+    "companion": "Natalia Rios"
+  },
+  {
+    "name": "Matias Fernandez",
+    "table": "45",
+    "companion": "Fernanda Martinez"
+  },
+  {
+    "name": "David Fleming",
+    "table": "54",
+    "companion": "Carla Maggi"
+  },
+  {
+    "name": "Eitan Fried",
+    "table": "49",
+    "companion": "Antonia Gomez"
+  },
+  {
+    "name": "Geza Fried",
+    "table": "49",
+    "companion": "Catalina Cruz"
+  },
+  {
+    "name": "Raquel Fuentes",
+    "table": "5",
+    "companion": ""
+  },
+  {
+    "name": "Fernando Gaete",
+    "table": "14",
+    "companion": "Catalina Schnaidt"
+  },
+  {
+    "name": "Sebastian Garcia",
+    "table": "30",
+    "companion": "Veronica Romero"
+  },
+  {
+    "name": "Pablo Gimeno",
+    "table": "36",
+    "companion": "Cecilia Pinochet"
+  },
+  {
+    "name": "Sebastian Gomez",
+    "table": "2",
+    "companion": "Pia Lazo"
+  },
+  {
+    "name": "Dominga Gomez",
+    "table": "5",
+    "companion": ""
+  },
+  {
+    "name": "Luis Gomez",
+    "table": "38",
+    "companion": "Gabriela Herrera"
+  },
+  {
+    "name": "Jose Pablo Gonzalez",
+    "table": "15",
+    "companion": "Josefa Zañartu"
+  },
+  {
+    "name": "Nerea Gonzalez",
+    "table": "29",
+    "companion": ""
+  },
+  {
+    "name": "Cristobal Gorigoitia",
+    "table": "3",
+    "companion": "Josefina Guzman"
+  },
+  {
+    "name": "Sebastien Grace",
+    "table": "15",
+    "companion": "Andrea Caffarena"
+  },
+  {
+    "name": "Ana Maria Grbic",
+    "table": "40",
+    "companion": ""
+  },
+  {
+    "name": "Ricardo Gruebler",
+    "table": "34",
+    "companion": "M Antonieta Faria"
+  },
+  {
+    "name": "Ignacio Guajardo",
+    "table": "48",
+    "companion": "Julia Rabel"
+  },
+  {
+    "name": "Ricardo Gutierrez",
+    "table": "17",
+    "companion": "Soledad Lafrentz"
+  },
+  {
+    "name": "Jose Ignacio Guzman",
+    "table": "N",
+    "companion": "Laura Bofill"
+  },
+  {
+    "name": "Juan Pablo Guzman",
+    "table": "N",
+    "companion": "Camila Costa"
+  },
+  {
+    "name": "Francisca Guzman",
+    "table": "N",
+    "companion": ""
+  },
+  {
+    "name": "Eugenio Guzman",
+    "table": "N",
+    "companion": "Alicia Caceres"
+  },
+  {
+    "name": "Julieta Guzman",
+    "table": "22",
+    "companion": ""
+  },
+  {
+    "name": "Francisco Guzman",
+    "table": "35",
+    "companion": "Loreto Lafontaine"
+  },
+  {
+    "name": "Maria del Carmen Guzman",
+    "table": "42",
+    "companion": ""
+  },
+  {
+    "name": "Javiera Guzmán",
+    "table": "3",
+    "companion": "Ignacio Benavente"
+  },
+  {
+    "name": "Francisco Guzman hijo",
+    "table": "23",
+    "companion": "Victoria Arevalo"
+  },
+  {
+    "name": "Alberto Hermann",
+    "table": "29",
+    "companion": "Erna Ripoll"
+  },
+  {
+    "name": "Paulina Herrera",
+    "table": "26",
+    "companion": "Antonio Perez"
+  },
+  {
+    "name": "Alberto Hormaechea",
+    "table": "18",
+    "companion": "Constanza Zambelli"
+  },
+  {
+    "name": "Kristin Hornauer",
+    "table": "33",
+    "companion": "Thomas Mc Milan"
+  },
+  {
+    "name": "Anton Hornauer",
+    "table": "45",
+    "companion": "Trinidad Arestizabal"
+  },
+  {
+    "name": "Maximiliano Hughes",
+    "table": "13",
+    "companion": "Fernanda Rosseló"
+  },
+  {
+    "name": "Juan Luis Ibarra",
+    "table": "39",
+    "companion": "Carla Montt"
+  },
+  {
+    "name": "Thomas Ihl",
+    "table": "14",
+    "companion": "Constanza Paredez"
+  },
+  {
+    "name": "Arturo Iriarte",
+    "table": "52",
+    "companion": "Trinidad Muñoz"
+  },
+  {
+    "name": "Francisco Izquierdo",
+    "table": "44",
+    "companion": "Magdalena Osorio"
+  },
+  {
+    "name": "Edwin Kallens",
+    "table": "13",
+    "companion": "Francisca Diaz"
+  },
+  {
+    "name": "Jose Lafrentz",
+    "table": "12",
+    "companion": "M Jesus Mainguyague"
+  },
+  {
+    "name": "Matias Lafrentz",
+    "table": "12",
+    "companion": ""
+  },
+  {
+    "name": "Carolina Lafrentz",
+    "table": "17",
+    "companion": ""
+  },
+  {
+    "name": "Jorge Lafrentz",
+    "table": "31",
+    "companion": "Rubi Marusic"
+  },
+  {
+    "name": "Jorge Lafrentz M",
+    "table": "41",
+    "companion": "Daniela Richter"
+  },
+  {
+    "name": "Sandro Lagomarsino",
+    "table": "19",
+    "companion": "Elizabeth Silva"
+  },
+  {
+    "name": "Marcela Landeros",
+    "table": "10",
+    "companion": ""
+  },
+  {
+    "name": "Fernando Lara",
+    "table": "29",
+    "companion": "Verena Hagel"
+  },
+  {
+    "name": "Toribio Larrain",
+    "table": "14",
+    "companion": "Carolina Millar"
+  },
+  {
+    "name": "Alejandro Larrain",
+    "table": "28",
+    "companion": "Maria Rosa"
+  },
+  {
+    "name": "Pablo Leon",
+    "table": "14",
+    "companion": "Andrea Sepulveda"
+  },
+  {
+    "name": "Rodrigo Llanos",
+    "table": "50",
+    "companion": "Silvana Bruno"
+  },
+  {
+    "name": "Esteban Llugany",
+    "table": "11",
+    "companion": "Piedad Donoso"
+  },
+  {
+    "name": "Cristobal Llugany",
+    "table": "11",
+    "companion": "Catalina Perlwitz"
+  },
+  {
+    "name": "Jose Juan Llugany",
+    "table": "37",
+    "companion": "Soledad Altamirano"
+  },
+  {
+    "name": "Andres Lopez",
+    "table": "45",
+    "companion": "Victoria Valenzuela"
+  },
+  {
+    "name": "Jose Eduardo Lopez",
+    "table": "48",
+    "companion": "Javiera Gomez"
+  },
+  {
+    "name": "Antonio Luna",
+    "table": "9",
+    "companion": "Nelly Chandia"
+  },
+  {
+    "name": "Ricardo Macchiavello",
+    "table": "31",
+    "companion": "Claudia Armijo"
+  },
+  {
+    "name": "Gullermo Mackenna",
+    "table": "26",
+    "companion": "Soledad"
+  },
+  {
+    "name": "Consuelo Magasich",
+    "table": "24",
+    "companion": "Fernando peña"
+  },
+  {
+    "name": "Marcos Magasich",
+    "table": "36",
+    "companion": "Ximena Arze"
+  },
+  {
+    "name": "Isabel Mahn",
+    "table": "26",
+    "companion": ""
+  },
+  {
+    "name": "Sergio Malandre",
+    "table": "18",
+    "companion": "Alejandra"
+  },
+  {
+    "name": "Rodrigo Maldonado",
+    "table": "10",
+    "companion": "Romina Airola"
+  },
+  {
+    "name": "Diego Manzano",
+    "table": "33",
+    "companion": "Catalina Lagazio"
+  },
+  {
+    "name": "Sebastian Manzano",
+    "table": "53",
+    "companion": "Maria Jose Rubio"
+  },
+  {
+    "name": "Victoria Marin",
+    "table": "13",
+    "companion": ""
+  },
+  {
+    "name": "M Teresa Martinez",
+    "table": "34",
+    "companion": ""
+  },
+  {
+    "name": "Felipe Mascaro",
+    "table": "23",
+    "companion": "Fernanda Goldfarb"
+  },
+  {
+    "name": "Mauricio Mascaro",
+    "table": "42",
+    "companion": "Silvia Caceres"
+  },
+  {
+    "name": "Javier Massai",
+    "table": "48",
+    "companion": ""
+  },
+  {
+    "name": "Mauricio Maurel",
+    "table": "38",
+    "companion": "Catalina Cardemil"
+  },
+  {
+    "name": "Gabriel Mayorga",
+    "table": "23",
+    "companion": "Natalie Silva"
+  },
+  {
+    "name": "Kurt Mcnab",
+    "table": "43",
+    "companion": ""
+  },
+  {
+    "name": "Felipe Medina",
+    "table": "30",
+    "companion": "Marcela Roman"
+  },
+  {
+    "name": "Diego Meneses",
+    "table": "44",
+    "companion": "Magdalena Rossi"
+  },
+  {
+    "name": "Ignacio Molina",
+    "table": "56",
+    "companion": ""
+  },
+  {
+    "name": "Heinz Moller",
+    "table": "24",
+    "companion": "Maria Jesus Cubillos"
+  },
+  {
+    "name": "Franco Montalbetti",
+    "table": "31",
+    "companion": "Verónica Ulloa"
+  },
+  {
+    "name": "Alejandro Mora",
+    "table": "27",
+    "companion": "Loreto Grechi"
+  },
+  {
+    "name": "Ignacio Morales",
+    "table": "54",
+    "companion": "Iva Saavedra"
+  },
+  {
+    "name": "Sebastian Morales",
+    "table": "54",
+    "companion": "Oriana Bottinelli"
+  },
+  {
+    "name": "Caleb Moran",
+    "table": "48",
+    "companion": "Isidora Floris"
+  },
+  {
+    "name": "Rosario Mujica",
+    "table": "44",
+    "companion": ""
+  },
+  {
+    "name": "Jose Manuel Muñoz",
+    "table": "20",
+    "companion": "Monica Rojas"
+  },
+  {
+    "name": "Sofia Muñoz",
+    "table": "41",
+    "companion": ""
+  },
+  {
+    "name": "Jose Manuel Muñoz H",
+    "table": "41",
+    "companion": "Constanza Neumann"
+  },
+  {
+    "name": "Gianfranco Nattero",
+    "table": "39",
+    "companion": "Soledad Parada"
+  },
+  {
+    "name": "Tamara Neweiler",
+    "table": "3",
+    "companion": "Martín Cárcamo"
+  },
+  {
+    "name": "Sebastian Novoa",
+    "table": "53",
+    "companion": "Antonia Sepulveda"
+  },
+  {
+    "name": "Hanz Oelrich",
+    "table": "15",
+    "companion": "Contanza Biggio"
+  },
+  {
+    "name": "Marco Orozco",
+    "table": "42",
+    "companion": "Isabel Guzman"
+  },
+  {
+    "name": "Ruben Oyarzo",
+    "table": "56",
+    "companion": "Marina Marco"
+  },
+  {
+    "name": "Ignacio Palet",
+    "table": "33",
+    "companion": "Macarena Solari"
+  },
+  {
+    "name": "Jose Miguel Pantoja",
+    "table": "54",
+    "companion": ""
+  },
+  {
+    "name": "Jorge Paredes",
+    "table": "28",
+    "companion": "Valerie"
+  },
+  {
+    "name": "Renata Pecce",
+    "table": "13",
+    "companion": ""
+  },
+  {
+    "name": "Benjamin Pellerano",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Franco Pellerano",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Nicolas Pellerano Jr",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Marcela Perez",
+    "table": "29",
+    "companion": ""
+  },
+  {
+    "name": "Franco Perocarpi",
+    "table": "46",
+    "companion": ""
+  },
+  {
+    "name": "Dante Perocarpi",
+    "table": "51",
+    "companion": ""
+  },
+  {
+    "name": "Juan Vicente Pezantes",
+    "table": "39",
+    "companion": "Barbara Rios"
+  },
+  {
+    "name": "Jose Miguel Pimentel",
+    "table": "26",
+    "companion": ""
+  },
+  {
+    "name": "Jose Miguel Pimentel Z",
+    "table": "43",
+    "companion": ""
+  },
+  {
+    "name": "Jose Miguel Pinochet",
+    "table": "18",
+    "companion": "Piedad Valdivieso"
+  },
+  {
+    "name": "Alvaro Pinto",
+    "table": "29",
+    "companion": "Barbara Claussen"
+  },
+  {
+    "name": "Elizabeth Pizarro",
+    "table": "29",
+    "companion": ""
+  },
+  {
+    "name": "Rodrigo Prieto",
+    "table": "41",
+    "companion": "Francisca Marshall"
+  },
+  {
+    "name": "Nathalie Reynolds",
+    "table": "33",
+    "companion": ""
+  },
+  {
+    "name": "Luka Ricciulli",
+    "table": "46",
+    "companion": "Pauline Sancy"
+  },
+  {
+    "name": "Hugo Richter",
+    "table": "20",
+    "companion": "Tatiana Chacon"
+  },
+  {
+    "name": "Juan Pablo Rivera",
+    "table": "1",
+    "companion": "Beatriz Santos"
+  },
+  {
+    "name": "Matilde Rodriguez",
+    "table": "27",
+    "companion": ""
+  },
+  {
+    "name": "Matias Rodriguez",
+    "table": "56",
+    "companion": "Francisca Muñoz"
+  },
+  {
+    "name": "Gloria Rojas",
+    "table": "9",
+    "companion": ""
+  },
+  {
+    "name": "Luz Maria Rojas",
+    "table": "30",
+    "companion": ""
+  },
+  {
+    "name": "Gonzalo Roman",
+    "table": "15",
+    "companion": "Jesus Gutierrez"
+  },
+  {
+    "name": "Francisco Romeo",
+    "table": "16",
+    "companion": "Alejandra Hugues"
+  },
+  {
+    "name": "Francesco Romeo",
+    "table": "45",
+    "companion": "Lucia Parera"
+  },
+  {
+    "name": "Gerardo Rosselot",
+    "table": "22",
+    "companion": "Matilde Guzman"
+  },
+  {
+    "name": "Tadeo Rosselot",
+    "table": "46",
+    "companion": "Sofia Jenske"
+  },
+  {
+    "name": "Pierino Rossi",
+    "table": "6",
+    "companion": "Rosario Morere"
+  },
+  {
+    "name": "Carlo Rossi",
+    "table": "31",
+    "companion": "Angelita Fernandez"
+  },
+  {
+    "name": "Sandro Rossi",
+    "table": "40",
+    "companion": "Beryl Carriel"
+  },
+  {
+    "name": "Stefano Rossi",
+    "table": "40",
+    "companion": "Catalina Cumar"
+  },
+  {
+    "name": "Benjamin Ruiz",
+    "table": "43",
+    "companion": "Alicia Peña"
+  },
+  {
+    "name": "Felipe Ruiz-Tagle",
+    "table": "24",
+    "companion": "Belen Ansaldo"
+  },
+  {
+    "name": "Simon Salinas",
+    "table": "53",
+    "companion": ""
+  },
+  {
+    "name": "Renato Salvatierra",
+    "table": "1",
+    "companion": "Celsa Matzner"
+  },
+  {
+    "name": "Mauricio Sanchez",
+    "table": "5",
+    "companion": ""
+  },
+  {
+    "name": "Juan Jose Santamaria",
+    "table": "10",
+    "companion": "Macarena Gomez"
+  },
+  {
+    "name": "Juan Pablo Sañudo",
+    "table": "7",
+    "companion": "Paula"
+  },
+  {
+    "name": "Maria Paz Sañudo",
+    "table": "7",
+    "companion": ""
+  },
+  {
+    "name": "Gonzalo Sañudo",
+    "table": "7",
+    "companion": "Maria Jose"
+  },
+  {
+    "name": "Ignacio Sañudo",
+    "table": "19",
+    "companion": "Toti"
+  },
+  {
+    "name": "Carla Schiappacasse",
+    "table": "23",
+    "companion": ""
+  },
+  {
+    "name": "Xavier Sepulveda",
+    "table": "55",
+    "companion": "Rosario Cuevas"
+  },
+  {
+    "name": "Matias Serrano",
+    "table": "24",
+    "companion": "Loreto Moraga"
+  },
+  {
+    "name": "Gonzalo Serrano",
+    "table": "44",
+    "companion": "Gabriela Naranjo"
+  },
+  {
+    "name": "Ursula Sieber",
+    "table": "34",
+    "companion": ""
+  },
+  {
+    "name": "Maximiliano Siña",
+    "table": "2",
+    "companion": "Mónica Zuñiga"
+  },
+  {
+    "name": "Roy Smither",
+    "table": "37",
+    "companion": "Joe"
+  },
+  {
+    "name": "Martin Sole",
+    "table": "50",
+    "companion": ""
+  },
+  {
+    "name": "Juan Diego Sone",
+    "table": "8",
+    "companion": "Maria Paz Fuster"
+  },
+  {
+    "name": "Mauricio Soruco",
+    "table": "55",
+    "companion": "Antonia Diaz"
+  },
+  {
+    "name": "Paulina Sotz",
+    "table": "13",
+    "companion": ""
+  },
+  {
+    "name": "Gunter Spratz",
+    "table": "36",
+    "companion": "Sandra"
+  },
+  {
+    "name": "Felipe Stambuk",
+    "table": "12",
+    "companion": "Colo Nazar"
+  },
+  {
+    "name": "Rosario Stambuk",
+    "table": "12",
+    "companion": "Acompañante"
+  },
+  {
+    "name": "Ignacio Stambuk",
+    "table": "12",
+    "companion": "Francesca Viacava"
+  },
+  {
+    "name": "Ivan Stambuk",
+    "table": "26",
+    "companion": "María José Balmaceda"
+  },
+  {
+    "name": "Ivan Stambuk B",
+    "table": "41",
+    "companion": "M Jose Leon"
+  },
+  {
+    "name": "Juan Pablo Stitchkin",
+    "table": "30",
+    "companion": "Natalia Gonzalez"
+  },
+  {
+    "name": "Matias Storm",
+    "table": "43",
+    "companion": "Camila Massu"
+  },
+  {
+    "name": "Sebastian Storm",
+    "table": "47",
+    "companion": "Josefina Valenzuela"
+  },
+  {
+    "name": "Juan Pablo Stolzenbach",
+    "table": "32",
+    "companion": "Paula Aguirre"
+  },
+  {
+    "name": "Javier Swett",
+    "table": "7",
+    "companion": "Marcela"
+  },
+  {
+    "name": "Mauricio Tomarelli",
+    "table": "14",
+    "companion": "Maria Paz Valdez"
+  },
+  {
+    "name": "Italo Traverso",
+    "table": "27",
+    "companion": "Ximena"
+  },
+  {
+    "name": "Juan Carlos Troncoso",
+    "table": "20",
+    "companion": "M Eugenia Storm"
+  },
+  {
+    "name": "Joaquin Troncoso",
+    "table": "53",
+    "companion": "Magdalena Larrain"
+  },
+  {
+    "name": "Vicente Tumani",
+    "table": "46",
+    "companion": "Paz Cardemil"
+  },
+  {
+    "name": "Nicolas Valdes",
+    "table": "6",
+    "companion": ""
+  },
+  {
+    "name": "Bernardo Valdes",
+    "table": "17",
+    "companion": "Maricarmen Davalos"
+  },
+  {
+    "name": "Matias Valdes",
+    "table": "20",
+    "companion": "Ana Maria Schmidt"
+  },
+  {
+    "name": "Francisca Valenzuela",
+    "table": "13",
+    "companion": ""
+  },
+  {
+    "name": "Oscar Valenzuela",
+    "table": "34",
+    "companion": ""
+  },
+  {
+    "name": "Alvaro Valenzuela",
+    "table": "35",
+    "companion": "Marie Anne Zuñiga"
+  },
+  {
+    "name": "Gonzalo Valenzuela",
+    "table": "51",
+    "companion": "Martina Rosselot"
+  },
+  {
+    "name": "Matias Valenzuela",
+    "table": "55",
+    "companion": "Laura Barison"
+  },
+  {
+    "name": "Juan Pablo Vallejos",
+    "table": "50",
+    "companion": ""
+  },
+  {
+    "name": "Juan Carlos Varas",
+    "table": "5",
+    "companion": "Sra"
+  },
+  {
+    "name": "Rodrigo Varas",
+    "table": "41",
+    "companion": "Monica Valle"
+  },
+  {
+    "name": "Felipe Vasquez",
+    "table": "2",
+    "companion": "Katherine Rios"
+  },
+  {
+    "name": "Jaime Velarde",
+    "table": "16",
+    "companion": "Valeria Léniz"
+  },
+  {
+    "name": "Jorge Velarde",
+    "table": "16",
+    "companion": "Fernanda Bodelon"
+  },
+  {
+    "name": "Rodrigo Velarde",
+    "table": "21",
+    "companion": "M Jose Osorio"
+  },
+  {
+    "name": "Amparo Velarde",
+    "table": "27",
+    "companion": ""
+  },
+  {
+    "name": "Pedro Velarde",
+    "table": "27",
+    "companion": "Maria del Carmen Lizama"
+  },
+  {
+    "name": "Agustin Venegas",
+    "table": "42",
+    "companion": "Adriana Guzman"
+  },
+  {
+    "name": "Renzo Vercellino",
+    "table": "51",
+    "companion": "Florencia Wahling"
+  },
+  {
+    "name": "Jose Ignacio Vicente",
+    "table": "32",
+    "companion": "Francisca Bozzolo"
+  },
+  {
+    "name": "Beatriz Villela",
+    "table": "8",
+    "companion": "Patricio Reyne"
+  },
+  {
+    "name": "Joaquin Villela",
+    "table": "8",
+    "companion": ""
+  },
+  {
+    "name": "Gonzalo Viñales",
+    "table": "50",
+    "companion": "Marcela Bonilla"
+  },
+  {
+    "name": "Sergio Vio",
+    "table": "N",
+    "companion": "Claudia Guzman"
+  },
+  {
+    "name": "Florencia Vio",
+    "table": "22",
+    "companion": "Teresita Cuevas"
+  },
+  {
+    "name": "Josefa Vio",
+    "table": "22",
+    "companion": "Vittorio Giovanazzi"
+  },
+  {
+    "name": "Sergio Vio Jr",
+    "table": "25",
+    "companion": ""
+  },
+  {
+    "name": "Maureen Yentzen",
+    "table": "13",
+    "companion": ""
+  },
+  {
+    "name": "Pier Paolo Zaccarelli",
+    "table": "40",
+    "companion": "Ximena Martinez"
+  },
+  {
+    "name": "Piero Zaccarelli",
+    "table": "46",
+    "companion": ""
+  },
+  {
+    "name": "Miguel Zahr",
+    "table": "36",
+    "companion": "Blanca Aguila"
+  },
+  {
+    "name": "Rodrigo Zavala",
+    "table": "18",
+    "companion": "Maria Teresa Hormaechea"
+  },
+  {
+    "name": "Thomas Zawels",
+    "table": "32",
+    "companion": "Consuelo Villela"
+  },
+  {
+    "name": "Guillermo Zedan",
+    "table": "40",
+    "companion": "Maria Ines Leon"
+  },
+  {
+    "name": "Iñaki Zuazola",
+    "table": "6",
+    "companion": "Valentina Gracia"
+  },
+  {
+    "name": "Jorge Zuazola",
+    "table": "36",
+    "companion": "Amaya Aretxabala"
+  },
+  {
+    "name": "Jorge Zuazola A",
+    "table": "6",
+    "companion": "Jose Vicente"
+  },
+  {
+    "name": "Claudio Zulueta",
+    "table": "11",
+    "companion": ""
+  },
+  {
+    "name": "Sonia Zyrpel",
+    "table": "34",
+    "companion": ""
+  }
+]
