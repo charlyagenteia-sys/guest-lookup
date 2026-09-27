@@ -2,12 +2,14 @@ const isCalibrateMode = new URLSearchParams(window.location.search).has('calibra
 const body = document.body;
 const resultsBox = document.getElementById('results');
 const tableSummaryBox = document.getElementById('table-summary');
+const floorplanMapBox = document.getElementById('floorplan-map');
 const form = document.getElementById('search-form');
 const input = document.getElementById('query');
 const statsGuests = document.getElementById('stat-guests');
 const statsTables = document.getElementById('stat-tables');
 const statsCapacity = document.getElementById('stat-capacity');
 const statsSpecials = document.getElementById('stat-specials');
+const isGuestOnly = body.dataset.view === 'guest';
 const datasetPath = body.dataset.dataset || 'data/guests-28mar.json';
 const tableMapPath =
   body.dataset.tableMap === undefined ? 'data/table-map.json' : body.dataset.tableMap.trim() || null;
@@ -25,6 +27,7 @@ const normalize = (value = '') =>
 
 let guests = [];
 let tables = [];
+let guestTables = [];
 let tableMap = {};
 let tableDataMeta = {};
 let guestCountByTable = new Map();
@@ -49,7 +52,8 @@ async function loadGuests() {
       const table = String(guest.table || guest.mesa || '').trim();
       const companion = String(guest.companion || guest.acompanante || guest['Acompañante'] || '').trim();
       const notes = String(guest.notes || guest.details || guest.detalles || '').trim();
-      const searchText = normalize([name, companion, notes, table].join(' '));
+      const searchParts = isGuestOnly ? [name, table] : [name, companion, notes, table];
+      const searchText = normalize(searchParts.join(' '));
       return {
         ...guest,
         name,
@@ -62,6 +66,7 @@ async function loadGuests() {
     })
     .sort((a, b) => a.searchText.localeCompare(b.searchText));
 
+  guestTables = buildGuestTableList();
   guestCountByTable = buildGuestCountByTable();
   updateStats();
   renderTableSummary();
@@ -101,6 +106,26 @@ function buildGuestCountByTable() {
   return counts;
 }
 
+function buildGuestTableList() {
+  const order = new Map();
+  for (const guest of guests) {
+    const key = String(guest.table || '').trim();
+    if (!key || order.has(key)) continue;
+    order.set(key, order.size);
+  }
+  return Array.from(order.keys()).sort((a, b) => {
+    const aPriority = tableSortPriority(a);
+    const bPriority = tableSortPriority(b);
+    if (aPriority !== bPriority) return aPriority - bPriority;
+    const aNumber = Number(a);
+    const bNumber = Number(b);
+    if (!Number.isNaN(aNumber) && !Number.isNaN(bNumber)) {
+      return aNumber - bNumber;
+    }
+    return a.localeCompare(b, 'es', { sensitivity: 'base' });
+  });
+}
+
 function getTableStats() {
   const tableCount = tables.length || new Set(guests.map((guest) => guest.table).filter(Boolean)).size;
   const capacityTotal = tables.reduce((sum, table) => sum + (Number(table.capacity) || 0), 0);
@@ -125,8 +150,8 @@ function showEmpty() {
   if (!resultsBox) return;
   resultsBox.innerHTML = `
     <div class="empty-state">
-      <p class="empty-kicker">Busca por nombre o mesa</p>
-      <p>Escribe un nombre, apellido, acompañante o número de mesa para ver la asignación exacta.</p>
+      <p class="empty-kicker">${isGuestOnly ? 'Busca tu mesa' : 'Busca por nombre o mesa'}</p>
+      <p>${isGuestOnly ? 'Escribe tu nombre, apellido o número de mesa para ver solo tu mesa.' : 'Escribe un nombre, apellido, acompañante o número de mesa para ver la asignación exacta.'}</p>
     </div>`;
   activateTable(null);
 }
@@ -144,36 +169,59 @@ function renderResults(matches, queryText, mode = 'name') {
     return;
   }
 
-  const cards = matches
-    .map((guest) => {
-      const color = colorForTable(guest.table);
-      const noteBits = [guest.notes].filter(Boolean);
-      const subtitle = guest.companion ? `Acompañante: ${guest.companion}` : 'Sin acompañante registrado';
-      const label = guest.table ? formatTableLabel(guest.table) : 'Sin mesa';
-      return `
-        <article class="result-card" data-table="${escapeHtml(guest.table)}" style="--mesa-color:${color};">
-          <div class="result-copy">
-            <strong>${escapeHtml(guest.name)}</strong>
-            <p>${escapeHtml(subtitle)}</p>
-            ${noteBits.length ? `<span class="note-pill">${escapeHtml(noteBits.join(' · '))}</span>` : ''}
-          </div>
-          <div class="result-meta">
-            <span class="mesa">${escapeHtml(label)}</span>
-          </div>
-        </article>`;
-    })
-    .join('');
+  if (isGuestOnly) {
+    const uniqueMatches = dedupeByTable(matches);
+    const cards = uniqueMatches
+      .map((guest) => {
+        const color = colorForTable(guest.table);
+        const label = guest.table
+          ? guest.table.toUpperCase() === 'NOVIOS'
+            ? 'Novios'
+            : guest.table
+          : 'Sin mesa';
+        return `
+          <article class="result-card guest-result" data-table="${escapeHtml(guest.table)}" style="--mesa-color:${color};">
+            <div class="result-copy">
+              <span class="guest-result__kicker">Mesa</span>
+              <strong>${escapeHtml(label)}</strong>
+            </div>
+          </article>`;
+      })
+      .join('');
 
-  const summary =
-    mode === 'table'
-      ? `<p class="search-summary">${escapeHtml(formatTableLabel(matches[0].table))} · ${matches.length} invitado${
-          matches.length === 1 ? '' : 's'
-        }</p>`
-      : `<p class="search-summary">${matches.length} resultado${matches.length === 1 ? '' : 's'} para "${escapeHtml(
-          queryText
-        )}"</p>`;
+    resultsBox.innerHTML = cards;
+  } else {
+    const cards = matches
+      .map((guest) => {
+        const color = colorForTable(guest.table);
+        const noteBits = [guest.notes].filter(Boolean);
+        const subtitle = guest.companion ? `Acompañante: ${guest.companion}` : 'Sin acompañante registrado';
+        const label = guest.table ? formatTableLabel(guest.table) : 'Sin mesa';
+        return `
+          <article class="result-card" data-table="${escapeHtml(guest.table)}" style="--mesa-color:${color};">
+            <div class="result-copy">
+              <strong>${escapeHtml(guest.name)}</strong>
+              <p>${escapeHtml(subtitle)}</p>
+              ${noteBits.length ? `<span class="note-pill">${escapeHtml(noteBits.join(' · '))}</span>` : ''}
+            </div>
+            <div class="result-meta">
+              <span class="mesa">${escapeHtml(label)}</span>
+            </div>
+          </article>`;
+      })
+      .join('');
 
-  resultsBox.innerHTML = `${summary}${cards}`;
+    const summary =
+      mode === 'table'
+        ? `<p class="search-summary">${escapeHtml(formatTableLabel(matches[0].table))} · ${matches.length} invitado${
+            matches.length === 1 ? '' : 's'
+          }</p>`
+        : `<p class="search-summary">${matches.length} resultado${matches.length === 1 ? '' : 's'} para "${escapeHtml(
+            queryText
+          )}"</p>`;
+
+    resultsBox.innerHTML = `${summary}${cards}`;
+  }
   const firstCard = resultsBox.querySelector('.result-card');
   if (firstCard) {
     setActiveCard(firstCard);
@@ -210,9 +258,8 @@ function resolveTableQuery(queryRaw) {
   const normalized = normalize(queryRaw);
   if (!normalized) return null;
   const candidate = normalized.replace(/^mesa\s+/, '').trim();
-  const normalizedTables = new Map(
-    tables.map((table) => [normalize(table.table), table.table]).filter(([key]) => key)
-  );
+  const sourceTables = tables.length ? tables.map((table) => String(table.table || table.label || '').trim()) : guestTables;
+  const normalizedTables = new Map(sourceTables.map((table) => [normalize(table), table]).filter(([key]) => key));
 
   if (normalizedTables.has(candidate)) {
     return normalizedTables.get(candidate);
@@ -230,6 +277,12 @@ function resolveTableQuery(queryRaw) {
 }
 
 function renderTableSummary() {
+  if (isGuestOnly) {
+    renderFloorplanMap();
+    syncActiveTableCard();
+    return;
+  }
+
   if (!tableSummaryBox) return;
   if (!tables.length) {
     tableSummaryBox.innerHTML = '';
@@ -282,6 +335,14 @@ function colorForTable(table = '') {
   return `hsl(${hue}, 68%, 38%)`;
 }
 
+function tableSortPriority(table = '') {
+  const value = String(table).trim().toUpperCase();
+  if (!value) return 3;
+  if (value === 'NOVIOS') return 0;
+  if (value === 'PRINCIPAL') return 1;
+  return 2;
+}
+
 function activateTable(table, color) {
   activeTable = table ? String(table) : null;
 
@@ -324,10 +385,16 @@ function activateTable(table, color) {
 }
 
 function syncActiveTableCard() {
-  if (!tableSummaryBox) return;
-  tableSummaryBox.querySelectorAll('.table-card').forEach((card) => {
-    card.classList.toggle('is-active', card.dataset.table === activeTable);
-  });
+  if (tableSummaryBox) {
+    tableSummaryBox.querySelectorAll('.table-card').forEach((card) => {
+      card.classList.toggle('is-active', card.dataset.table === activeTable);
+    });
+  }
+  if (floorplanMapBox) {
+    floorplanMapBox.querySelectorAll('.plan-table').forEach((card) => {
+      card.classList.toggle('is-active', card.dataset.table === activeTable);
+    });
+  }
 }
 
 function setActiveCard(card) {
@@ -356,6 +423,16 @@ function focusTable(table) {
   if (input) input.focus();
 }
 
+function dedupeByTable(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = String(item.table || 'SIN MESA').trim() || 'SIN MESA';
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 resultsBox?.addEventListener('click', (event) => {
   const card = event.target.closest('.result-card');
   if (card) {
@@ -365,6 +442,12 @@ resultsBox?.addEventListener('click', (event) => {
 
 tableSummaryBox?.addEventListener('click', (event) => {
   const card = event.target.closest('.table-card');
+  if (!card) return;
+  focusTable(card.dataset.table || '');
+});
+
+floorplanMapBox?.addEventListener('click', (event) => {
+  const card = event.target.closest('.plan-table');
   if (!card) return;
   focusTable(card.dataset.table || '');
 });
@@ -395,6 +478,31 @@ async function bootstrap() {
 }
 
 bootstrap();
+
+function renderFloorplanMap() {
+  if (!floorplanMapBox) return;
+  const labels = tables.length
+    ? tables.map((table) => String(table.table || table.label || '').trim()).filter(Boolean)
+    : guestTables;
+  if (!labels.length) {
+    floorplanMapBox.innerHTML = '';
+    return;
+  }
+
+  const entries = labels.includes('NOVIOS') ? labels : ['NOVIOS', ...labels];
+
+  floorplanMapBox.innerHTML = entries
+    .map((label) => {
+      const display = label === 'NOVIOS' ? 'Novios' : label;
+      return `
+        <button class="plan-table ${label === activeTable ? 'is-active' : ''}" type="button" data-table="${escapeHtml(
+          label
+        )}">
+          <span class="plan-table__label">${escapeHtml(display)}</span>
+        </button>`;
+    })
+    .join('');
+}
 
 function setupCalibrateMode() {
   if (!isCalibrateMode) return;
