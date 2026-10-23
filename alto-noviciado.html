@@ -4,30 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Busque su mesa · Alto Noviciado</title>
-    <link rel="stylesheet" href="style.css?v=20260417" />
+    <link rel="stylesheet" href="style.css?v=20261023" />
   </head>
-  <body data-dataset="data/guests-keeefe-nicolas.json" data-table-map="data/table-map-50.json">
+  <body
+    class="theme-noviciado"
+    data-dataset="data/guests-alto-noviciado.json"
+    data-table-map="data/table-map-50.json"
+  >
     <div class="backdrop"></div>
     <main class="layout">
       <section class="hero-card invite-card">
-        <p class="event-meta">ALTO NOVICIADO · SEATING MAP</p>
-        <span class="script-tag">Matrimonio Keeffe - Nicolás</span>
+        <p class="event-meta">ALTO NOVICIADO · LISTA DE INVITADOS</p>
+        <span class="script-tag">Busque su mesa</span>
         <h1>Encuentra tu mesa</h1>
-        <p class="intro-text">
-          Busca tu nombre tal como aparece en la lista de invitados. Si tienes dudas, acércate al equipo de anfitriones.
-        </p>
+        <p class="intro-text">Escribe tu nombre, apellido o número de mesa y verás tu ubicación en el salón.</p>
         <form id="search-form" autocomplete="off">
-          <label for="query">Nombre o apellido</label>
+          <label for="query">Nombre, apellido o mesa</label>
           <input
             id="query"
             name="query"
             type="search"
-            placeholder="Ej: Carolina Díaz"
+            placeholder="Ej: Francisca Aguilera, mesa 18"
             spellcheck="false"
             autocomplete="off"
             required
           />
-          <button type="submit">Buscar</button>
+          <button type="submit">Buscar mesa</button>
         </form>
       </section>
 
