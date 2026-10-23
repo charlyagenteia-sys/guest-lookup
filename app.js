@@ -251,7 +251,14 @@ function searchGuest(queryRaw) {
   }
 
   const partial = guests.filter((guest) => guest.searchText.includes(query));
-  renderResults(partial.slice(0, 8), queryRaw, 'name');
+  const limit = getPartialResultLimit(query);
+  renderResults(limit ? partial.slice(0, limit) : partial, queryRaw, 'name');
+}
+
+function getPartialResultLimit(query) {
+  if (!query) return 0;
+  if (query.length < 3) return 12;
+  return 0;
 }
 
 function resolveTableQuery(queryRaw) {
